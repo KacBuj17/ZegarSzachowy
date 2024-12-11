@@ -1,0 +1,34 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=ZegarSzachowy
+[Library]
+ZegarSzachowy=.\ZegarSzachowy\ZegarSzachowy.lib
+[$LibMap$]
+ZegarSzachowy=.
+Active_lib=ARTIX7
+xilinxun=ARTIX7
+UnlinkedDesignLibrary=ARTIX7
+DESIGNS=ARTIX7
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+VerilogDirsChanged=1
+FAMILY=Xilinx2019x ARTIX7
+[Verilog Library]
+ARTIX7=
+[Files]
+/ZegarSzachowy.v=-1
+/ZegarSzachowy.v=-1
+[Files.Data]
+.\src\ZegarSzachowy.v=Verilog Source Code
+.\src\ZegarSzachowy.v=Verilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
