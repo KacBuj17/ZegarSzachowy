@@ -1,1 +1,17 @@
 i<>.\src\ZegarSzachowy.v
+i<>.\src\Counter.v
+i<>.\src\Second_counter.v
+i<>.\src\Minute_counter.v
+i<>.\src\Timer_Clock.v
+i<>.\src\Timer_Clock_Tb.v
+i<>.\src\Prescaler.v
+i<>.\src\Top.bde
+i<>.\src\Decoder.v
+i<>.\src\Switch_TB.v
+i<>.\src\Counter_TB.v
+i<>.\src\Decoder_TB.v
+i<>.\src\TestBench\Counter_TB.v
+i<>.\src\TestBench\Decoder_TB.v
+i<>.\src\TestBench\Switch_TB.v
+i<>.\src\TestBench\Timer_Clock_TB.v
+i<>.\src\TestBench\Top_TB.v

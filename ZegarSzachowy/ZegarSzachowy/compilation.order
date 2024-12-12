@@ -1,1 +1,13 @@
-.\src\ZegarSzachowy.v
+.\src\Switch.v
+.\src\Counter.v
+.\src\Second_counter.v
+.\src\Minute_counter.v
+.\src\Timer_Clock.v
+.\src\Prescaler.v
+.\src\Top.bde
+.\src\Decoder.v
+.\src\TestBench\Counter_TB.v
+.\src\TestBench\Decoder_TB.v
+.\src\TestBench\Switch_TB.v
+.\src\TestBench\Timer_Clock_TB.v
+.\src\TestBench\Top_TB.v

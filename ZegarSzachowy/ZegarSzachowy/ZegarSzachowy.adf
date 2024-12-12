@@ -20,15 +20,52 @@ REFRESH_FLOW=1
 FLOWTOOLS=NONE
 VerilogDirsChanged=1
 FAMILY=Xilinx2019x ARTIX7
+fileopenfolder=C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\TestBench
 [Verilog Library]
 ARTIX7=
 [Files]
-/ZegarSzachowy.v=-1
-/ZegarSzachowy.v=-1
+/Switch.v=-1
+/Counter.v=-1
+/Second_counter.v=-1
+/Minute_counter.v=-1
+/Timer_Clock.v=-1
+/Prescaler.v=-1
+/Top.bde=-1
+/Decoder.v=-1
+TestBench/Counter_TB.v=-1
+TestBench/Counter_TB_runtest.do=-1
+TestBench/Decoder_TB.v=-1
+TestBench/Decoder_TB_runtest.do=-1
+TestBench/Switch_TB.v=-1
+TestBench/Switch_TB_runtest.do=-1
+TestBench/Timer_Clock_TB.v=-1
+TestBench/Timer_Clock_TB_runtest.do=-1
+TestBench/Top_TB.v=-1
+TestBench/Top_TB_runtest.do=-1
 [Files.Data]
-.\src\ZegarSzachowy.v=Verilog Source Code
-.\src\ZegarSzachowy.v=Verilog Source Code
+.\src\Switch.v=Verilog Source Code
+.\src\Counter.v=Verilog Source Code
+.\src\Second_counter.v=Verilog Source Code
+.\src\Minute_counter.v=Verilog Source Code
+.\src\Timer_Clock.v=Verilog Source Code
+.\src\Prescaler.v=Verilog Source Code
+.\src\Top.bde=Block Diagram
+.\src\Decoder.v=Verilog Source Code
+.\src\TestBench\Counter_TB.v=Verilog Source Code
+.\src\TestBench\Counter_TB_runtest.do=Macro
+.\src\TestBench\Decoder_TB.v=Verilog Source Code
+.\src\TestBench\Decoder_TB_runtest.do=Macro
+.\src\TestBench\Switch_TB.v=Verilog Source Code
+.\src\TestBench\Switch_TB_runtest.do=Macro
+.\src\TestBench\Timer_Clock_TB.v=Verilog Source Code
+.\src\TestBench\Timer_Clock_TB_runtest.do=Macro
+.\src\TestBench\Top_TB.v=Verilog Source Code
+.\src\TestBench\Top_TB_runtest.do=Macro
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+[file_out:/Top.bde]
+/..\compile\Top.v=-1
+[Groups]
+TestBench=1

@@ -1,0 +1,409 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+setactivelib -work
+# #Compiling UUT module design files
+comp -include $dsn\src\Top.v
+# Error: C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\Top.v: no such file
+comp -include "$dsn\src\TestBench\Top_TB.v"
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+asim +access +r Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Top.bde
+# DRC: Checking file "C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde".
+# DRC: Warning: Top.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 189 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/compile/Top.v from C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde...
+# Generation successful
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 28 (100.00%) other processes in SLP
+# SLP: 203 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4682 kB (elbread=427 elab2=4121 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  23:31, czwartek, 12 grudnia 2024
+#  Simulation has been initialized
+
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg SELECT
+wave -noreg STOP
+
+wave -noreg OVERFLOW1
+wave -noreg OVERFLOW2
+wave -noreg seg0_0
+wave -noreg seg0_1
+wave -noreg seg0_2
+wave -noreg seg0_3
+
+wave -noreg seg1_0
+wave -noreg seg1_1
+wave -noreg seg1_2
+wave -noreg seg1_3
+
+run 1000.00 ns
+# VSIM: 15 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# 
+# #End simulation macro
+# Error: You do not have valid license to run C Code Debug.
+# Error: Contact Aldec for ordering information sales@aldec.com
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+run 100 ns
+# KERNEL: stopped at time: 1800 ns
+run 100 ns
+# KERNEL: stopped at time: 1900 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Top_TB Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Top.bde
+# DRC: Checking file "C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde".
+# DRC: Warning: Top.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 177 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/compile/Top.v from C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde...
+# Generation successful
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 28 (100.00%) other processes in SLP
+# SLP: 204 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4682 kB (elbread=427 elab2=4121 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  23:34, czwartek, 12 grudnia 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 5197400 ns
+# VSIM: Simulation has finished.
+setactivelib -work
+# #Compiling UUT module design files
+comp -include $dsn\src\Top.v
+# Error: C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\Top.v: no such file
+comp -include "$dsn\src\TestBench\Top_TB.v"
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+asim +access +r Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 28 (100.00%) other processes in SLP
+# SLP: 204 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4682 kB (elbread=427 elab2=4121 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  23:34, czwartek, 12 grudnia 2024
+#  Simulation has been initialized
+
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg SELECT
+wave -noreg STOP
+
+wave -noreg OVERFLOW1
+wave -noreg OVERFLOW2
+wave -noreg seg0_0
+wave -noreg seg0_1
+wave -noreg seg0_2
+wave -noreg seg0_3
+
+wave -noreg seg1_0
+wave -noreg seg1_1
+wave -noreg seg1_2
+wave -noreg seg1_3
+
+run 1000.00 ns
+# VSIM: 15 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# 
+# #End simulation macro
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Top.bde
+# DRC: Checking file "C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde".
+# DRC: Warning: Top.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 165 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/compile/Top.v from C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde...
+# Generation successful
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+endsim
+# VSIM: Simulation has finished.
+setactivelib -work
+# #Compiling UUT module design files
+comp -include $dsn\src\Top.v
+# Error: C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\Top.v: no such file
+comp -include "$dsn\src\TestBench\Top_TB.v"
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+asim +access +r Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 28 (100.00%) other processes in SLP
+# SLP: 204 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4682 kB (elbread=427 elab2=4121 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  23:34, czwartek, 12 grudnia 2024
+#  Simulation has been initialized
+
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg SELECT
+wave -noreg STOP
+
+wave -noreg OVERFLOW1
+wave -noreg OVERFLOW2
+wave -noreg seg0_0
+wave -noreg seg0_1
+wave -noreg seg0_2
+wave -noreg seg0_3
+
+wave -noreg seg1_0
+wave -noreg seg1_1
+wave -noreg seg1_2
+wave -noreg seg1_3
+
+run 1000.00 ns
+# VSIM: 15 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# 
+# #End simulation macro
+# VSIM: 1 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 28 (100.00%) other processes in SLP
+# SLP: 204 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4682 kB (elbread=427 elab2=4121 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  23:34, czwartek, 12 grudnia 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Prescaler.v $dsn/src/Top.bde $dsn/src/Decoder.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# DRC: Checking file "C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde".
+# DRC: Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 187 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/compile/Top.v from C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde...
+# Generation successful
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+setactivelib -work
+# #Compiling UUT module design files
+comp -include $dsn\src\Top.v
+# Error: C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\Top.v: no such file
+comp -include "$dsn\src\TestBench\Top_TB.v"
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+asim +access +r Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 28 (100.00%) other processes in SLP
+# SLP: 205 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4682 kB (elbread=427 elab2=4121 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  23:35, czwartek, 12 grudnia 2024
+#  Simulation has been initialized
+
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg SELECT
+wave -noreg STOP
+
+wave -noreg OVERFLOW1
+wave -noreg OVERFLOW2
+wave -noreg seg0_0
+wave -noreg seg0_1
+wave -noreg seg0_2
+wave -noreg seg0_3
+
+wave -noreg seg1_0
+wave -noreg seg1_1
+wave -noreg seg1_2
+wave -noreg seg1_3
+
+run 1000.00 ns
+# VSIM: 15 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# 
+# #End simulation macro
+endsim
+# VSIM: Simulation has finished.
