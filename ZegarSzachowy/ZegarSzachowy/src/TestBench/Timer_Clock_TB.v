@@ -8,6 +8,10 @@ module Timer_Clock_TB;
     reg CLR;
 	reg CE;
 	reg IMPULSE;
+	reg US_DECREMENT_IMPULSE;
+	reg TS_DECREMENT_IMPULSE;
+	reg UM_DECREMENT_IMPULSE;
+	reg TM_DECREMENT_IMPULSE;
     wire [3:0] sec_tens;
     wire [3:0] sec_units;
     wire [3:0] min_tens;
@@ -20,6 +24,10 @@ module Timer_Clock_TB;
         .CLR(CLR),
 		.CE(CE),
 		.IMPULSE(IMPULSE),
+		.US_DECREMENT_IMPULSE(US_DECREMENT_IMPULSE),
+		.TS_DECREMENT_IMPULSE(TS_DECREMENT_IMPULSE),
+		.UM_DECREMENT_IMPULSE(UM_DECREMENT_IMPULSE),
+		.TM_DECREMENT_IMPULSE(TM_DECREMENT_IMPULSE),
         .sec_tens(sec_tens),
         .sec_units(sec_units),
         .min_tens(min_tens),

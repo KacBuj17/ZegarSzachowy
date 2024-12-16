@@ -16,3 +16,5 @@ i<>.\src\TestBench\Switch_TB.v
 i<>.\src\TestBench\Timer_Clock_TB.v
 i<>.\src\TestBench\Top_TB.v
 i<>.\src\Overflow_Handler.v
+i<>.\src\Overflow_Handler_TB.v
+i<>.\src\Timer_Setter.v

@@ -18,7 +18,7 @@
 //
 //-----------------------------------------------------------------------------
 
-`timescale 1ps / 1ps
+`timescale 1ns / 1ps
 
 
 module Counter_TB();
@@ -27,6 +27,7 @@ module Counter_TB();
     reg CLR;
     reg CE;
 	reg IMPULSE;
+	reg DECREMENT_IMPULSE;
     reg [3:0] MAX;
     wire [3:0] COUNT;
     wire OVERFLOW;
@@ -36,6 +37,7 @@ module Counter_TB();
         .CLR(CLR),
         .CE(CE),
 		.IMPULSE(IMPULSE),
+		.DECREMENT_IMPULSE(DECREMENT_IMPULSE),
         .MAX(MAX),
         .COUNT(COUNT),
         .OVERFLOW(OVERFLOW)

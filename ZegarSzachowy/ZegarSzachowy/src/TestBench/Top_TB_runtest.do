@@ -10,9 +10,16 @@ wave -noreg CLR
 wave -noreg CE
 wave -noreg SELECT
 wave -noreg STOP
+wave -noreg Set_Impulse;
 
-wave -noreg OVERFLOW1
-wave -noreg OVERFLOW2
+wave -noreg D1;
+wave -noreg D2;
+wave -noreg D3;
+wave -noreg D4;
+wave -noreg D5;
+wave -noreg D6;
+wave -noreg D7;
+wave -noreg D8;
 
 
 wave -noreg seg0_0
@@ -25,6 +32,6 @@ wave -noreg seg1_1
 wave -noreg seg1_2
 wave -noreg seg1_3
 
-run 1000.00 ns
+run 2000.00 ns
 
 #End simulation macro
