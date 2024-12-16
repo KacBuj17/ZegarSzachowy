@@ -1,81 +1,83 @@
-timestamp=1734043245042
+timestamp=1734365868276
 
 [~A]
-../compile/Top.v=0*37464*38448
+../compile/Top.v=0*95463*96479
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/compile/Top.v=0*28198*29307
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Counter.v=0*25706*26334
-C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Decoder.v=0*34924*35648
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Decoder.v=0*32404*33128
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Minute_counter.v=0*23308*23943
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Overflow_Handler.v=0*42664*43349
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Second_counter.v=0*24507*25142
-C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Switch.v=0*29848*30523
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Switch.v=0*50358*51049
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Switch.v_Counter.v_Second_counter.v_Minute_counter.v_Timer_Clock.v_Prescaler.v_Top.v_Decoder.v=0*19920*22586
-C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Switch.v_Counter.v_Second_counter.v_Minute_counter.v_Timer_Clock.v_Prescaler.v_Top.v_Decoder.v_Counter_TB.v_Decoder_TB.v_Switch_TB.v_Timer_Clock_TB.v_Top_TB.v=0*38929*42971
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Switch.v_Counter.v_Second_counter.v_Minute_counter.v_Timer_Clock.v_Prescaler.v_Top.v_Decoder.v_Counter_TB.v_Decoder_TB.v_Switch_TB.v_Timer_Clock_TB.v_Top_TB.v=0*36339*40365
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Switch.v_Counter.v_Second_counter.v_Minute_counter.v_Timer_Clock.v_Prescaler.v_Top.v_Decoder.v_Decoder_TB.v_Counter_TB.v_Switch_TB.v_Timer_Clock_TB.v=0*15510*19095
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Switch.v_Counter.v_Second_counter.v_Minute_counter.v_Timer_Clock.v_Prescaler.v_Top.v_Decoder.v_Overflow_Handler.v_Counter_TB.v_Decoder_TB.v_Switch_TB.v_Timer_Clock_TB.v_Top_TB.v=0*89589*93810
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Switch.v_Counter.v_Second_counter.v_Minute_counter.v_Timer_Clock.v_Prescaler.v_Top.v_Decoder.v_Timer_Clock_TB.v=0*11816*14739
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Counter_TB.v=0*26891*27612
-C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Decoder_TB.v=0*36205*36878
-C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Switch_TB.v=0*31079*31783
-C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Timer_Clock_TB.v=0*33609*34334
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Decoder_TB.v=0*33685*34358
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Switch_TB.v=0*43915*44651
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Timer_Clock_TB.v=0*31089*31814
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Timer_Clock_Tb.v=0*6748*7505
-C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Top_TB.v=0*43805*44634
-C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Timer_Clock.v=0*32368*33048
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/TestBench/Top_TB.v=0*66454*67267
+C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Timer_Clock.v=0*29848*30528
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/ZegarSzachowy.v=0*8095*8713
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/ZegarSzachowy.v_Counter.v_Second_counter.v_Minute_counter.v=0*0*1415
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/ZegarSzachowy.v_Counter.v_Second_counter.v_Minute_counter.v_Timer_Clock.v=0*2054*3547
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/ZegarSzachowy.v_Counter.v_Second_counter.v_Minute_counter.v_Timer_Clock.v_Prescaler.v_Timer_Clock_TB.v=0*9276*11086
 C:/Users/Kacper/Desktop/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/ZegarSzachowy.v_Counter.v_Second_counter.v_Minute_counter.v_Timer_Clock.v_Timer_Clock_Tb.v=0*4216*6046
 LastVerilogToplevel=Top_TB
-ModifyID=896
+ModifyID=1015
 Version=74
 
 [~MFT]
-0=0|0ZegarSzachowy.mgf|50005|0
-1=0|1ZegarSzachowy.mgf|35135|0
-2=0|2ZegarSzachowy.mgf|14480|0
-3=0|3ZegarSzachowy.mgf|23796|0
+0=6|0ZegarSzachowy.mgf|96479|23316
+1=4|1ZegarSzachowy.mgf|151428|116903
+2=28|2ZegarSzachowy.mgf|121061|103384
+3=8|3ZegarSzachowy.mgf|89405|64304
 
 [$root]
-A/$root=22|||1*0
-BinW64/$root=3*0
-SLP=3*115
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|c73a565f2ade592f8ac1c68f484c9216961935691dab29140455a98bf062f92d
+A/$root=22|||1*150926
+BinW64/$root=3*89109
+SLP=3*89224
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|c73a565f2ade592f8ac1c68f484c92160148fbde4f2db9e9eb0c67bf8f20ca38
 
 [ChessClock]
-A/ChessClock=22|../src/Counter.v|1|1*502
+A/ChessClock=22|../src/Counter.v|1|1*518
 BinW64/ChessClock=3*183
 R=../src/Counter.v|1
 SLP=3*1856
 Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|00381f5888d4d52cc7e1f777a6840336479a1ff870bc7bf9d34c702a07267c727341b1f9b4a7a755966ab0cfb4b800e6
 
 [Counter]
-A/Counter=22|../src/Counter.v|5|1*2383
-BinW64/Counter=3*2855
+A/Counter=22|../src/Counter.v|5|1*125398
+BinW64/Counter=3*74947
 R=../src/Counter.v|5
-SLP=3*3617
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|06226efa8082c213e6fdeb1e63816e2526527262ddaa47cb266f3a3c4d9b973ae45fb608f81c63dd21ce6e53ddb79eac
+SLP=3*75709
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|06226efa8082c213e6fdeb1e63816e2526527262ddaa47cb266f3a3c4d9b973abf421a65b2781d2540ace562553a4ae5
 
 [Counter_TB]
-A/Counter_TB=22|../src/TestBench/Counter_TB.v|24|1*3844
-BinW64/Counter_TB=3*3975
+A/Counter_TB=22|../src/TestBench/Counter_TB.v|24|1*141936
+BinW64/Counter_TB=3*81933
 R=../src/TestBench/Counter_TB.v|24
-SLP=3*4902
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|5e9f0edfb74cfa62c143d7be6057650f01beaf5ceec9921af83583c5ef714f5810ed56bbb6377eec608a9efb3c45d4f3
+SLP=3*82860
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|5e9f0edfb74cfa62c143d7be6057650f01beaf5ceec9921af83583c5ef714f5851d0afc68fc63dbcd39fda88be92fca5
 
 [Decoder]
-A/Decoder=22|../src/Decoder.v|23|1*5440
+A/Decoder=22|../src/Decoder.v|23|1*138134
 A/Fub7=22|../src/Decoder.v|10000|
-BinW64/Decoder=3*5390
-NSymbols/decoder=NSymbols/Decoder 40|0|2*0
+BinW64/Decoder=3*78462
+NSymbols/decoder=NSymbols/Decoder 40|0|2*103838
 R=../src/Decoder.v|23
-SLP=3*6898
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|1c17319664848e6a353a8c8fab86b23826527262ddaa47cb266f3a3c4d9b973a51f0647cb8f3c12fb53a68d29cbc5b90
+SLP=3*79970
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|1c17319664848e6a353a8c8fab86b23826527262ddaa47cb266f3a3c4d9b973acd42ef6eaad2130c1efc9d7d1f634eee
 
 [Decoder_TB]
-A/Decoder_TB=22|../src/TestBench/Decoder_TB.v|24|1*7664
-BinW64/Decoder_TB=3*7956
+A/Decoder_TB=22|../src/TestBench/Decoder_TB.v|24|1*143532
+BinW64/Decoder_TB=3*83348
 R=../src/TestBench/Decoder_TB.v|24
-SLP=3*9056
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|8d8b3e39ad291ef1f6c8ccbd8b9a4945a202997498decc6ddac26d2ce2f2e46610ed56bbb6377eec608a9efb3c45d4f3
+SLP=3*84448
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|8d8b3e39ad291ef1f6c8ccbd8b9a4945a202997498decc6ddac26d2ce2f2e46651d0afc68fc63dbcd39fda88be92fca5
 
 [Fub1]
 NSymbols/fub1=NSymbols/Fub1 40|0|2*4782
@@ -87,160 +89,140 @@ NSymbols/fub2=NSymbols/Fub2 40|0|2*5253
 NSymbols/fub3=NSymbols/Fub3 40|0|2*5671
 
 [Minute_counter]
-A/Minute_counter=22|../src/Minute_counter.v|5|1*9627
-BinW64/Minute_counter=3*9720
+A/Minute_counter=22|../src/Minute_counter.v|5|1*128763
+BinW64/Minute_counter=3*76362
 R=../src/Minute_counter.v|5
-SLP=3*9844
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|995b17593f515109a403ac684c43c4271adbbe60e94d34620eb1111afff33b46e9c5bad13c5a667d7a1b309fe5894e51
+SLP=3*76486
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|995b17593f515109a403ac684c43c4271adbbe60e94d34620eb1111afff33b4612ffd17b8243703df953f6683e4b93a5
+
+[Overflow_Handler]
+A/Fub4=22|../src/Overflow_Handler.v|10000|
+A/Overflow_Handler=22|../src/Overflow_Handler.v|27|1*140358
+BinW64/Overflow_Handler=3*81028
+NSymbols/overflow_handler=NSymbols/Overflow_Handler 40|0|2*108620
+R=../src/Overflow_Handler.v|27
+SLP=3*81563
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|37c67e233747e3d5b99e14581d3afc26d6c210a88363b3ef7be8a081bda1fc00edaf515efa1f5fd985df1f528335f9b3
 
 [Prescaler]
 A/Fub6=22|../src/Prescaler.v|10000|
-A/Prescaler=22|../src/Prescaler.v|23|1*11531
-BinW64/Prescaler=3*10016
-NSymbols/prescaler=NSymbols/Prescaler 40|0|2*9267
+A/Prescaler=22|../src/Prescaler.v|23|1*132492
+BinW64/Prescaler=3*76968
+NSymbols/prescaler=NSymbols/Prescaler 40|0|2*111437
 R=../src/Prescaler.v|23
-SLP=3*10815
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|ab2da49470fce20409faaaad0a67e09dc81403c949c973d597ca82dc9410a01bd9ab0aaf6732c3e24a2ddf8443e4fc77
+SLP=3*77767
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|ab2da49470fce20409faaaad0a67e09dc81403c949c973d597ca82dc9410a01bd47a65bf088b42c995b65e0a8ff7229e
 
 [Second_counter]
-A/Second_counter=22|../src/Second_counter.v|5|1*12977
-BinW64/Second_counter=3*11208
+A/Second_counter=22|../src/Second_counter.v|5|1*126859
+BinW64/Second_counter=3*76067
 R=../src/Second_counter.v|5
-SLP=3*11332
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|361a491f4d69b26523ff0efbe82c03ffcb44c3ea62b47aef4aded63c910444abe9c5bad13c5a667d7a1b309fe5894e51
+SLP=3*76191
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|361a491f4d69b26523ff0efbe82c03ffcb44c3ea62b47aef4aded63c910444ab35b58232890ce0d2f74f45cf89200e51
 
 [Switch]
-A/Fub9=22|../src/Switch.v|10000|
-A/Switch=22|../src/Switch.v|5|1*14881
-BinW64/Switch=3*11503
-NSymbols/switch=NSymbols/Switch 40|0|2*11290
+A/Fub6=22|../src/Switch.v|10000|
+A/Switch=22|../src/Switch.v|5|1*123635
+BinW64/Switch=3*73738
+NSymbols/switch=NSymbols/Switch 40|0|2*113460
 R=../src/Switch.v|5
-SLP=3*12232
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|19719af1dd039ab73c91654d2c011165fd408bbc8f4abfb2720e1ececa43a48a
+SLP=3*74478
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|19719af1dd039ab73c91654d2c011165c2c94a58e3d8e365849df6535da112b7
 
 [Switch_TB]
-A/Switch_TB=22|../src/TestBench/Switch_TB.v|4|1*16571
-BinW64/Switch_TB=3*12669
+A/Switch_TB=22|../src/TestBench/Switch_TB.v|4|1*145495
+BinW64/Switch_TB=3*85112
 R=../src/TestBench/Switch_TB.v|4
-SLP=3*13618
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|885c696533b4c7b6f4a5c1156582640cde5bec244785163ee09f36783c9667d4053d2279c2f4af4be0349eb60bddac26
+SLP=3*86061
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|885c696533b4c7b6f4a5c1156582640cde5bec244785163ee09f36783c9667d4cc033a5b6f53bd81191195c744a65856
 
 [Timer_Clock]
 A/Fub5=22|../src/Timer_Clock.v|10000|
-A/Timer_Clock=22|../src/Timer_Clock.v|4|1*18027
-BinW64/Timer_Clock=3*14153
-NSymbols/timer_clock=NSymbols/Timer_Clock 40|0|2*14480
+A/Timer_Clock=22|../src/Timer_Clock.v|4|1*130667
+BinW64/Timer_Clock=3*76658
+NSymbols/timer_clock=NSymbols/Timer_Clock 40|0|2*121061
 R=../src/Timer_Clock.v|4
-SLP=3*14274
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|0fd752a25fb8b40fde50008d56150ec9cc895cf32aa737a44e8a9da7dbe1e3906c0565374504dfc013e8fa431d557114
+SLP=3*76779
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|0fd752a25fb8b40fde50008d56150ec9cc895cf32aa737a44e8a9da7dbe1e390b5ce089e2816b1464e03201cff9eb2eb
 
 [Timer_Clock_TB]
-A/Timer_Clock_TB=22|../src/TestBench/Timer_Clock_TB.v|5|1*19852
-BinW64/Timer_Clock_TB=3*14463
+A/Timer_Clock_TB=22|../src/TestBench/Timer_Clock_TB.v|5|1*147028
+BinW64/Timer_Clock_TB=3*86594
 R=../src/TestBench/Timer_Clock_TB.v|5
-SLP=3*15199
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|dc117950bc48091b18d862b8d87407b020857eed4f9bedd1ae244b92ece8a99d16bcd6090cd27ef685ba693bc0b0b682
+SLP=3*87330
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|dc117950bc48091b18d862b8d87407b020857eed4f9bedd1ae244b92ece8a99daa96969154988a50671091297ca689c7
 
 [Top]
-A/Top=24|../src/Top.bde|10000|1*21569
-BinW64/Top=3*15563
-R=../src/Top.bde|23
-SLP=3*15676
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|f8911ddcb55ae6ffc9fa5b00358c0e086ac85f55b3d254702bec952d5658e85e
+A/Top=24|../src/Top.bde|10000|1*151428
+BinW64/Top=3*89292
+R=../src/Top.bde|0
+SLP=3*89405
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|f8911ddcb55ae6ffc9fa5b00358c0e08b3e28e13978b68d3395f6da088598e2f
 
 [Top_TB]
-A/Top_TB=22|../src/TestBench/Top_TB.v|4|1*25718
-BinW64/Top_TB=3*15872
+A/Top_TB=22|../src/TestBench/Top_TB.v|4|1*148745
+BinW64/Top_TB=3*87694
 R=../src/TestBench/Top_TB.v|4
-SLP=3*16775
-Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|1c2cc830fce882dcdbfb2d1690f720d83930b7b0476cc6a1fdde2e8d3bce9ce9
+SLP=3*88597
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|1c2cc830fce882dcdbfb2d1690f720d8ead4179e2e84e894bfefeef055f0a3d7
 
 [ZegarSzachowy]
-A/ZegarSzachowy=22|../src/ZegarSzachowy.v|3|1*27957
-BinW64/ZegarSzachowy=3*17286
+A/ZegarSzachowy=22|../src/ZegarSzachowy.v|3|1*27960
+BinW64/ZegarSzachowy=3*18232
 R=../src/ZegarSzachowy.v|3
-SLP=3*17940
+SLP=3*18886
 Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|b4d3005dba5b15790f374e76432c5cdefe6bbbab5431b4ee92552e0fdd331752948e63adb2d3d423bad5811d21f8ce2b
 
 [decoder_7segment]
-A/decoder_7segment=22|../src/Decoder.v|27|1*29626
-BinW64/decoder_7segment=3*18312
+A/decoder_7segment=22|../src/Decoder.v|27|1*29629
+BinW64/decoder_7segment=3*19258
 R=../src/Decoder.v|27
-SLP=3*19829
+SLP=3*20775
 Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|e9999f5a0b9f811ebfae2f770b311255fd6ad216544c867c85f7f0731462ce650fd8d3884d35659e19c63508e87b6f53
 
 [second_counter]
-A/second_counter=22|../src/Second_counter.v|27|1*31886
-BinW64/second_counter=3*20906
+A/second_counter=22|../src/Second_counter.v|27|1*31889
+BinW64/second_counter=3*21852
 R=../src/Second_counter.v|27
-SLP=3*21030
+SLP=3*21976
 Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|0e799152d29faaa386824e7a3919cae5ab104b34ad3b455b7011ccdadf81dc15a2cfa554349ccf162537d50b45b1375a
 
 [tb_Switch]
-A/tb_Switch=22|../src/TestBench/Switch_TB.v|2|1*33703
-BinW64/tb_Switch=3*21189
+A/tb_Switch=22|../src/TestBench/Switch_TB.v|2|1*33706
+BinW64/tb_Switch=3*22135
 R=../src/TestBench/Switch_TB.v|2
-SLP=3*22127
+SLP=3*23073
 Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|9da3fc1479c79b138da2a9487fcab1bc59e4ed595574a5656b8ead9383b9757a0ba033c9ba251bae2124c2538f577a2d
 
 [timer_clock_tb]
-A/timer_clock_tb=22|../src/TestBench/Timer_Clock_Tb.v|3|1*35135
-BinW64/timer_clock_tb=3*22670
+A/timer_clock_tb=22|../src/TestBench/Timer_Clock_Tb.v|3|1*35138
+BinW64/timer_clock_tb=3*23616
 R=../src/TestBench/Timer_Clock_Tb.v|3
-SLP=3*23796
+SLP=3*24742
 Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca36340700398c0582|20aaf891af85ed9b5e63d80513269cfc22c594a5bb4bb6d5838d62119ccd273b8366e2cfc70ef006246947d1c246311e
 
 [~U]
-$root=12|0*45200|
-ChessClock=12|0*45590||0x10
-Counter=12|0*45864|
-Counter_TB=12|0*46113||0x10
-Decoder=12|0*46282||0x7
-Decoder_TB=12|0*46614||0x10
+$root=12|0*94695|
+ChessClock=12|0*52027||0x10
+Counter=12|0*86403|
+Counter_TB=12|0*88637||0x10
+Decoder=12|0*88064||0x7
+Decoder_TB=12|0*88806||0x10
 Fub1=12|||0x7
 Fub2=12|||0x7
 Fub3=12|||0x7
-Minute_counter=12|0*46783|
-Prescaler=12|0*47058||0x7
-Second_counter=12|0*47262|
-Switch=12|0*47536||0x7
-Switch_TB=12|0*47769||0x10
-Timer_Clock=12|0*47936||0x7
-Timer_Clock_TB=12|0*48241||0x10
-Top=12|0*48450||0x10
-Top_TB=12|0*48812||0x10
-ZegarSzachowy=12|0*48973||0x10
-decoder_7segment=12|0*49221||0x10
-second_counter=12|0*49568||0x10
-tb_Switch=12|0*49838||0x10
-timer_clock_tb=12|0*50005||0x10
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Minute_counter=12|0*86926|
+Overflow_Handler=12|0*88396||0x7
+Prescaler=12|0*87506||0x7
+Second_counter=12|0*86652|
+Switch=12|0*86163||0x7
+Switch_TB=12|0*88975||0x10
+Timer_Clock=12|0*87201||0x7
+Timer_Clock_TB=12|0*89142||0x10
+Top=12|0*95133|
+Top_TB=12|0*89351||0x10
+ZegarSzachowy=12|0*55719||0x10
+decoder_7segment=12|0*55967||0x10
+second_counter=12|0*56314||0x10
+tb_Switch=12|0*56584||0x10
+timer_clock_tb=12|0*56751||0x10

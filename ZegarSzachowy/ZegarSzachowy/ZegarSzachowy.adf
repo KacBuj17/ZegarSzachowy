@@ -20,7 +20,7 @@ REFRESH_FLOW=1
 FLOWTOOLS=NONE
 VerilogDirsChanged=1
 FAMILY=Xilinx2019x ARTIX7
-fileopenfolder=C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\TestBench
+fileopenfolder=C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src
 [Verilog Library]
 ARTIX7=
 [Files]
@@ -32,6 +32,8 @@ ARTIX7=
 /Prescaler.v=-1
 /Top.bde=-1
 /Decoder.v=-1
+/ZegarSzachowy.xdc=-1
+/Overflow_Handler.v=-1
 TestBench/Counter_TB.v=-1
 TestBench/Counter_TB_runtest.do=-1
 TestBench/Decoder_TB.v=-1
@@ -51,6 +53,8 @@ TestBench/Top_TB_runtest.do=-1
 .\src\Prescaler.v=Verilog Source Code
 .\src\Top.bde=Block Diagram
 .\src\Decoder.v=Verilog Source Code
+.\src\ZegarSzachowy.xdc=External File
+.\src\Overflow_Handler.v=Verilog Source Code
 .\src\TestBench\Counter_TB.v=Verilog Source Code
 .\src\TestBench\Counter_TB_runtest.do=Macro
 .\src\TestBench\Decoder_TB.v=Verilog Source Code

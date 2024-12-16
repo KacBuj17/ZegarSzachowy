@@ -1,4 +1,4 @@
-Active-HDL 15.0.261.9132 2024-12-12 23:35:41
+Active-HDL 15.0.261.9132 2024-12-16 13:10:04
 
 Elaboration top modules:
 Verilog Module                Top_TB
@@ -23,9 +23,3 @@ Library                 | Comment
 ---------------------------------------------------------------------------------------------------
 zegarszachowy           | None
 ---------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim +access +r Top_TB
-
-
-The performance of simulation is reduced. Version Student Edition

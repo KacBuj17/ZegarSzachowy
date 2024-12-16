@@ -29,8 +29,6 @@ module Top_TB();
         .CE(CE),
         .SELECT(SELECT),
         .STOP(STOP),
-		.OVERFLOW1(OVERFLOW1),
-		.OVERFLOW2(OVERFLOW2),
 		.seg0_0(seg0_0),
         .seg0_1(seg0_1),
         .seg0_2(seg0_2),

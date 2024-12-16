@@ -8,7 +8,7 @@
 //-----------------------------------------------------------------------------
 //
 // File        : C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\compile\Top.v
-// Generated   : Thu Dec 12 23:35:34 2024
+// Generated   : Mon Dec 16 17:16:55 2024
 // From        : C:\Users\Kacper\Desktop\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\Top.bde
 // By          : Bde2Verilog ver. 2.01
 //
@@ -28,7 +28,7 @@
 `timescale 1ps / 1ps
 
 module Top (seg0_0,seg0_1,seg0_2,seg0_3,seg1_0,seg1_1,seg1_2,seg1_3,CLK,CLR,
-SELECT,STOP,CE,OVERFLOW1,OVERFLOW2) ;
+SELECT,STOP,CE) ;
 
 // ------------ Port declarations --------- //
 output [6:0] seg0_0;
@@ -57,16 +57,14 @@ input STOP;
 wire STOP;
 input CE;
 wire CE;
-output OVERFLOW1;
-wire OVERFLOW1;
-output OVERFLOW2;
-wire OVERFLOW2;
 
 // ----------- Signal declarations -------- //
 wire CEO;
-wire CEO2;
+wire END;
 wire NET5204;
 wire NET5212;
+wire NET6290;
+wire NET6298;
 wire [3:0] BUS4096;
 wire [3:0] BUS4100;
 wire [3:0] BUS4110;
@@ -85,6 +83,7 @@ Switch U1
 	.CE(CE),
 	.SELECT(SELECT),
 	.STOP(STOP),
+	.END(END),
 	.Enable_p1(NET5204),
 	.Enable_p2(NET5212)
 );
@@ -95,13 +94,13 @@ Timer_Clock U2
 (
 	.CLK(CLK),
 	.CLR(CLR),
-	.CE(CEO2),
+	.CE(CEO),
 	.IMPULSE(NET5204),
 	.sec_tens(BUS4130),
 	.sec_units(BUS4126),
 	.min_tens(BUS4122),
 	.min_units(BUS4118),
-	.OVERFLOW(OVERFLOW1)
+	.OVERFLOW(NET6290)
 );
 
 
@@ -116,7 +115,7 @@ Timer_Clock U3
 	.sec_units(BUS4110),
 	.min_tens(BUS4100),
 	.min_units(BUS4096),
-	.OVERFLOW(OVERFLOW2)
+	.OVERFLOW(NET6298)
 );
 
 
@@ -160,17 +159,19 @@ Prescaler U6
 	.CLK(CLK),
 	.CE(CE),
 	.CLR(CLR),
-	.CEO(CEO2)
+	.CEO(CEO)
 );
 
 
 
-Prescaler U8
+Overflow_Handler U7
 (
 	.CLK(CLK),
-	.CE(CE),
 	.CLR(CLR),
-	.CEO(CEO)
+	.CE(CE),
+	.OVERFLOW1(NET6290),
+	.OVERFLOW2(NET6298),
+	.END(END)
 );
 
 

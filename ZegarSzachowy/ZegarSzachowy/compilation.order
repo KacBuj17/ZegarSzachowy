@@ -6,6 +6,7 @@
 .\src\Prescaler.v
 .\src\Top.bde
 .\src\Decoder.v
+.\src\Overflow_Handler.v
 .\src\TestBench\Counter_TB.v
 .\src\TestBench\Decoder_TB.v
 .\src\TestBench\Switch_TB.v

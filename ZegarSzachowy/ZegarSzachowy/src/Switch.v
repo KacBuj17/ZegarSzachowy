@@ -8,6 +8,7 @@ module Switch (
 	input wire CE,
     input wire SELECT,
     input wire STOP,
+	input wire END,
     output wire Enable_p1,
     output wire Enable_p2
 );	  
@@ -24,8 +25,10 @@ always @(posedge CLK or posedge CLR or posedge STOP) begin
 	else begin
 		if (CE) begin
 			if (~STOP) begin
-				En1 = ~SELECT;
-		    	En2 = SELECT;
+				if (~END) begin
+					En1 = ~SELECT;
+			    	En2 = SELECT;
+				end
 			end
 			else begin
 				En1 = 1'b0;

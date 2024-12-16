@@ -8,6 +8,7 @@ module Switch_TB();
     reg CE;
     reg SELECT;
     reg STOP;
+	reg END;
     wire Enable_p1;
     wire Enable_p2;
 
@@ -18,6 +19,7 @@ module Switch_TB();
         .CE(CE),
         .SELECT(SELECT),
         .STOP(STOP),
+		.END(END),
         .Enable_p1(Enable_p1),
         .Enable_p2(Enable_p2)
     );
