@@ -1551,3 +1551,133 @@ run 2500.00 ns
 # #End simulation macro
 endsim
 # VSIM: Simulation has finished.
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy_post_synthesis $dsn/synthesis/glbl.v $dsn/synthesis/Top.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Error: VCP1010 Cannot find source file: C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/synthesis/Top.v
+# Error: VCP1010 Cannot find source file: C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/synthesis/glbl.v
+# Compile failure 2 Errors 1 Warnings  Analysis time: 0[s].
+# Error: File: 'C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/src/Seven_seg_driver_TB.v' included in synthesis not found.
+# Error: File: 'C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/src/Seven_seg_driver_TB.v' included in synthesis not found.
+# Error: Xilinx Vivado executable file was not found. Choose Tools | Preferences and specify the tool location in the Flows | Integrated Tools category.
+# Library Manager: Library "zegarszachowy" contents cleared.
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy_post_synthesis $dsn/synthesis/glbl.v $dsn/synthesis/Top.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Error: VCP1010 Cannot find source file: C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/synthesis/Top.v
+# Error: VCP1010 Cannot find source file: C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/synthesis/glbl.v
+# Compile failure 2 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+# Error: File: 'C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/src/Seven_seg_driver_TB.v' included in synthesis not found.
+# Error: Xilinx Vivado executable file was not found. Choose Tools | Preferences and specify the tool location in the Flows | Integrated Tools category.
+# Library Manager: Library "zegarszachowy_post_synthesis" contents cleared.
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k17 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+setactivelib -work
+# #Compiling UUT module design files
+comp -include $dsn\src\Top.v
+# Error: C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\src\Top.v: no such file
+comp -include "$dsn\src\TestBench\Top_TB.v"
+# Warning: VCP2112 Library "ARTIX7" does not exist or is not visible from current project.
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+asim +access +r Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: Top_TB.v (26): Length of connection (7) does not match the length of port "seg_select" (8) on instance "/Top_TB/uut".
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 46 (100.00%) other processes in SLP
+# SLP: 295 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4697 kB (elbread=427 elab2=4136 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\src\wave.asdb
+#  14:55, wtorek, 7 stycznia 2025
+#  Simulation has been initialized
+
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg SELECT
+wave -noreg STOP
+wave -noreg Set_Impulse;
+
+wave -noreg D1;
+wave -noreg D2;
+wave -noreg D3;
+wave -noreg D4;
+wave -noreg D5;
+wave -noreg D6;
+wave -noreg D7;
+wave -noreg D8;
+wave -noreg seg_out
+wave -noreg seg_select
+run 2000.00 ns
+# VSIM: 16 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/src/wave.asdb'.
+# KERNEL: stopped at time: 2 us
+# 
+# #End simulation macro
+# Error: Xilinx Vivado executable file was not found. Choose Tools | Preferences and specify the tool location in the Flows | Integrated Tools category.
+endsim
+# VSIM: Simulation has finished.

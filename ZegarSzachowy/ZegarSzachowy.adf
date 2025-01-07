@@ -28,7 +28,7 @@ SYNTH_TOOL=MV_VIVADO_SYNTH_2019_1
 CSYNTH_TOOL=
 PHYSSYNTH_TOOL=
 PHYSSYNTH_STATUS=none
-SYNTH_STATUS=warnings
+SYNTH_STATUS=none
 IMPL_STATUS=none
 RUN_MODE_SYNTH=0
 PCBINTERFACE_STATUS=NONE
@@ -67,10 +67,6 @@ TestBench/Timer_Clock_TB.v=-1
 TestBench/Timer_Clock_TB_runtest.do=-1
 TestBench/Top_TB.v=-1
 TestBench/Top_TB_runtest.do=-1
-post-synthesis/..\..\synthesis\Top.edn=-1
-post-synthesis/..\..\synthesis\glbl.v=-1
-post-synthesis/..\..\synthesis\Top.v=-1
-TestBench/Seven_seg_driver_TB.v=-1
 [Files.Data]
 .\src\Switch.v=Verilog Source Code
 .\src\Counter.v=Verilog Source Code
@@ -98,10 +94,6 @@ TestBench/Seven_seg_driver_TB.v=-1
 .\src\TestBench\Timer_Clock_TB_runtest.do=Macro
 .\src\TestBench\Top_TB.v=Verilog Source Code
 .\src\TestBench\Top_TB_runtest.do=Macro
-.\synthesis\Top.edn=EDIF Netlist
-.\synthesis\glbl.v=VERILOG SOURCE CODE
-.\synthesis\Top.v=Verilog Source Code
-.\src\TestBench\Seven_seg_driver_TB.v=Verilog Source Code
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
@@ -125,7 +117,7 @@ SYNTH_RUN_MODE=0
 SYNTH_AUTO_CLOSE=0
 SYNTH_OVERWRITE_EXISTING_PRJ=1
 SYNTH_SIMULATION_OUTPUT_FORMAT=2
-SYNTH_SYNTHESIS_CHECKPOINT=
+SYNTH_SYNTHESIS_CHECKPOINT=synthesis\Top_synth.dcp
 SYNTH_SYNTHESIS_CONSTRAINT_FILE=
 SYNTH_FLATTEN_HIERARCHY=Rebuilt
 SYNTH_GATED_CLOCK_CONVERSION=Off
@@ -188,8 +180,7 @@ CHECKPOINT_FILE=synthesis\Top_synth.dcp
 FAMILY=
 [SIM.POST]
 TOPLEVEL=Top glbl
-[Verilog Library]
-ARTIX7=
 [Groups]
 TestBench=1
-post-synthesis=1
+[Verilog Library]
+ARTIX7=

@@ -9,4 +9,10 @@ i<>.\src\Second_counter.v
 i<>.\src\Minute_counter.v
 i<>.\src\Timer_Clock.v
 i<>.\src\Top.bde
-i<>.\src\Seven_seg_driver_TB.v
+i<>.\src\TestBench\Seven_seg_driver_TB.v
+i<>.\src\TestBench\Overflow_Handler_TB.v
+i<>.\src\TestBench\Counter_TB.v
+i<>.\src\TestBench\Decoder_TB.v
+i<>.\src\TestBench\Switch_TB.v
+i<>.\src\TestBench\Timer_Clock_TB.v
+i<>.\src\TestBench\Top_TB.v

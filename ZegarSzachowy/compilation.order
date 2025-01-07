@@ -16,5 +16,3 @@
 .\src\TestBench\Switch_TB.v
 .\src\TestBench\Timer_Clock_TB.v
 .\src\TestBench\Top_TB.v
-.\synthesis\glbl.v
-.\synthesis\Top.v
