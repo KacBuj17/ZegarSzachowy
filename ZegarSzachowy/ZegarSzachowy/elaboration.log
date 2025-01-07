@@ -1,0 +1,24 @@
+Active-HDL 15.0.261.9132 2025-01-07 14:44:14
+
+Elaboration top modules:
+Verilog Module                Seven_seg_driver_tb
+
+
+---------------------------------------------------------------------------------------------------
+Verilog Module          | Library       | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------
+Seven_seg_driver_tb     | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
+Seven_seg_driver        | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+Library                 | Comment
+---------------------------------------------------------------------------------------------------
+zegarszachowy           | None
+---------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r Seven_seg_driver_tb
+
+
+The performance of simulation is reduced. Version Student Edition

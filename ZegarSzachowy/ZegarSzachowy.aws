@@ -1,0 +1,13 @@
+[Version]
+Version=15.0
+[Designs]
+ZegarSzachowy=ZegarSzachowy.adf
+[Settings]
+Active=ZegarSzachowy
+[Expand]
+zegarszachowy=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1

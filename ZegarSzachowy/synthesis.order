@@ -1,0 +1,12 @@
+i<>.\src\Switch.v
+i<>.\src\Counter.v
+i<>.\src\Prescaler.v
+i<>.\src\Decoder.v
+i<>.\src\Overflow_Handler.v
+i<>.\src\Timer_Setter.v
+i<>.\src\Seven_seg_driver.v
+i<>.\src\Second_counter.v
+i<>.\src\Minute_counter.v
+i<>.\src\Timer_Clock.v
+i<>.\src\Top.bde
+i<>.\src\Seven_seg_driver_TB.v
