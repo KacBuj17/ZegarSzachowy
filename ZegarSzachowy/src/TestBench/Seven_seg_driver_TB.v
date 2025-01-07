@@ -35,11 +35,9 @@ module Seven_seg_driver_tb;
     reg [6:0] seg7;
     reg [6:0] seg8;
 
-    // Outputs
     wire [6:0] seg_out;
     wire [7:0] seg_select;
 
-    // Instantiate the Unit Under Test (UUT)
     Seven_seg_driver uut (
         .CLK(CLK),
         .CE(CE),
@@ -56,39 +54,31 @@ module Seven_seg_driver_tb;
         .seg_select(seg_select)
     );
 
-    // Clock generation
     initial CLK = 0;
-    always #5 CLK = ~CLK; // 10ns period (100MHz clock)
+    always #5 CLK = ~CLK;
 
-    // Testbench logic
     initial begin
-        // Initialize Inputs
         CE = 0;
         CLR = 0;
-        seg1 = 7'b1111001; // Display 1
-        seg2 = 7'b0100100; // Display 2
-        seg3 = 7'b0110000; // Display 3
-        seg4 = 7'b0011001; // Display 4
-        seg5 = 7'b0010010; // Display 5
-        seg6 = 7'b0000010; // Display 6
-        seg7 = 7'b1111000; // Display 7
-        seg8 = 7'b0000000; // Display 8
+        seg1 = 7'b1111001;
+        seg2 = 7'b0100100;
+        seg3 = 7'b0110000;
+        seg4 = 7'b0011001;
+        seg5 = 7'b0010010;
+        seg6 = 7'b0000010;
+        seg7 = 7'b1111000;
+        seg8 = 7'b0000000;
 
-        // Reset the system
         CLR = 1;
         #10;
         CLR = 0;
 
-        // Enable the counter
         CE = 1;
 
-        // Run simulation for 200 clock cycles
         #2000;
 
-        // Disable the counter
         CE = 0;
 
-        // Finish simulation
         #100;
         $stop;
     end

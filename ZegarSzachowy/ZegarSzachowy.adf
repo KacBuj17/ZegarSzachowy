@@ -70,6 +70,7 @@ TestBench/Top_TB_runtest.do=-1
 post-synthesis/..\..\synthesis\Top.edn=-1
 post-synthesis/..\..\synthesis\glbl.v=-1
 post-synthesis/..\..\synthesis\Top.v=-1
+TestBench/Seven_seg_driver_TB.v=-1
 [Files.Data]
 .\src\Switch.v=Verilog Source Code
 .\src\Counter.v=Verilog Source Code
@@ -100,6 +101,7 @@ post-synthesis/..\..\synthesis\Top.v=-1
 .\synthesis\Top.edn=EDIF Netlist
 .\synthesis\glbl.v=VERILOG SOURCE CODE
 .\synthesis\Top.v=Verilog Source Code
+.\src\TestBench\Seven_seg_driver_TB.v=Verilog Source Code
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
