@@ -17,6 +17,8 @@ add_files -norecurse {C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/Zeg
 add_files -norecurse {C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/src/TestBench/Switch_TB.v}
 add_files -norecurse {C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/src/TestBench/Timer_Clock_TB.v}
 add_files -norecurse {C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/src/TestBench/Top_TB.v}
+add_files -norecurse {C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/src/TestBench/Top_TB_tim.v}
+add_files -norecurse {C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/src/TestBench/Top_TB_synth.v}
 set_property top Top [current_fileset]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property target_language Verilog [current_project]

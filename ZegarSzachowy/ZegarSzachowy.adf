@@ -4,7 +4,7 @@ VCS=0
 version=4
 Current Config=compile
 [Configurations]
-compile=ZegarSzachowy_post_synthesis
+compile=zegarszachowy
 [Library]
 ZegarSzachowy=.\ZegarSzachowy\ZegarSzachowy.lib
 ZegarSzachowy_post_synthesis=.\ZegarSzachowy_post_synthesis\ZegarSzachowy_post_synthesis.lib
@@ -251,7 +251,7 @@ TEMPERATURE=
 STATIC_POWER=
 OLD_FAMILY=Xilinx2023x ARTIX7
 OUTPUT_NETLIST=synthesis\Top.edn
-LAST_RUN=1737965794
+LAST_RUN=1738004575
 OUTPUT_SIMUL_NETLIST=synthesis\Top.v
 [PHYS_SYNTHESIS]
 FAMILY=Xilinx2023x ARTIX7
@@ -280,7 +280,7 @@ TEMPERATURE=
 STATIC_POWER=
 NETLIST=synthesis\Top.edn
 CHECKPOINT_FILE=synthesis\Top_synth.dcp
-LAST_RUN=1737966767
+LAST_RUN=1738004578
 IMPL_SWEEP=1
 IMPL_RETARGET=1
 IMPL_CONSTANT_PROPAGATION=1
@@ -417,8 +417,6 @@ OUTPUT_SDF=implement\Top.sdf
 TestBench=1
 post-synthesis=1
 timing=1
-[Verilog Library]
-ARTIX7=
 [sdf.vm.Top]
 0=implement\Top.sdf| /Top, Average, No
 [SIM.TIME]
@@ -428,3 +426,5 @@ SDF_PATH=implement\Top.sdf
 0=implement\Top.sdf| /Top_tb_synth/UUT, Average, No
 [sdf.vmm.Top_tb_tim glbl]
 0=implement\Top.sdf| /Top_tb_tim/UUT, Average, No
+[Verilog Library]
+ARTIX7=

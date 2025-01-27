@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Mon Jan 27 09:33:18 2025
+| Date         : Mon Jan 27 20:03:32 2025
 | Host         : DESKTOP-UDGHVC5 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
 | Design       : Top
@@ -73,14 +73,14 @@ Table of Contents
 +----------------+------------------------+------------------+------------------+----------------+--------------+
 |  Clock Signal  |      Enable Signal     | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +----------------+------------------------+------------------+------------------+----------------+--------------+
-|  CLK_IBUF_BUFG | U6/r_D2_reg            | CLR_IBUF         |                1 |              3 |         3.00 |
 |  CLK_IBUF_BUFG | U6/r_D6_reg            | CLR_IBUF         |                2 |              3 |         1.50 |
-|  CLK_IBUF_BUFG | U6/r_D3_reg            | CLR_IBUF         |                2 |              4 |         2.00 |
-|  CLK_IBUF_BUFG | U6/r_D1_reg            | CLR_IBUF         |                1 |              4 |         4.00 |
-|  CLK_IBUF_BUFG | U6/r_D7_reg            | CLR_IBUF         |                2 |              4 |         2.00 |
-|  CLK_IBUF_BUFG | U6/r_D8_reg            | CLR_IBUF         |                1 |              4 |         4.00 |
-|  CLK_IBUF_BUFG | U6/r_D4_reg            | CLR_IBUF         |                1 |              4 |         4.00 |
+|  CLK_IBUF_BUFG | U6/r_D2_reg            | CLR_IBUF         |                1 |              3 |         3.00 |
 |  CLK_IBUF_BUFG | U6/r_D5_reg            | CLR_IBUF         |                2 |              4 |         2.00 |
+|  CLK_IBUF_BUFG | U6/r_D3_reg            | CLR_IBUF         |                2 |              4 |         2.00 |
+|  CLK_IBUF_BUFG | U6/r_D4_reg            | CLR_IBUF         |                1 |              4 |         4.00 |
+|  CLK_IBUF_BUFG | U6/r_D1_reg            | CLR_IBUF         |                1 |              4 |         4.00 |
+|  CLK_IBUF_BUFG | U6/r_D8_reg            | CLR_IBUF         |                1 |              4 |         4.00 |
+|  CLK_IBUF_BUFG | U6/r_D7_reg            | CLR_IBUF         |                2 |              4 |         2.00 |
 |  CLK_IBUF_BUFG |                        | CLR_IBUF         |                2 |              5 |         2.50 |
 |  CLK_IBUF_BUFG | U15/seg_out[6]_i_1_n_0 | CLR_IBUF         |                7 |             15 |         2.14 |
 |  CLK_IBUF_BUFG | CE_IBUF                | CLR_IBUF         |               22 |             95 |         4.32 |
