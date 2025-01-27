@@ -8,7 +8,7 @@
 //-----------------------------------------------------------------------------
 //
 // File        : C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\compile\Top.v
-// Generated   : Mon Jan 27 09:23:29 2025
+// Generated   : Mon Jan 27 10:17:32 2025
 // From        : C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\src\Top.bde
 // By          : Bde2Verilog ver. 2.01
 //

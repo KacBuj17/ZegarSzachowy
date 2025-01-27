@@ -4,7 +4,7 @@
 //* ACTIVE-HDL Testbench Generator ver. 13, 0, 375, 8320.    *
 //* Copyright (C) ALDEC Inc.                                  *
 //*                                                           *
-//* This file was generated on:         19:39:02 26.01.2025   *
+//* This file was generated on:         09:52:24 27.01.2025   *
 //*************************************************************
 //Below are listed ports used in STIMULUS process,
 //Begin Comment
@@ -29,20 +29,20 @@ initial
 begin : STIMUL // begin of stimulus process
 //# <time to next event> //<current time>
 	#0
-	CE = 1'b0;
-	STOP = 1'b0;
-	Set_Impulse = 1'b0;
-	CLR = 1'b1;
-	SELECT = 1'b0;
-	D3 = 1'b0;
-	D4 = 1'b0;
 	CLK = 1'b0;
-	D5 = 1'b0;
+	SELECT = 1'b0;
+	STOP = 1'b0;
+	CLR = 1'b1;
+	Set_Impulse = 1'b0;
 	D1 = 1'b0;
 	D2 = 1'b0;
+	D3 = 1'b0;
+	CE = 1'b0;
+	D4 = 1'b0;
+	D5 = 1'b0;
 	D6 = 1'b0;
-	D7 = 1'b0;
 	D8 = 1'b0;
+	D7 = 1'b0;
     #10000; //0
 	CLK = 1'b1;
     #10000; //10000
@@ -52,10 +52,10 @@ begin : STIMUL // begin of stimulus process
     #10000; //30000
 	CLK = 1'b0;
     #10000; //40000
-	CE = 1'b1;
-	CLR = 1'b0;
-	SELECT = 1'b1;
 	CLK = 1'b1;
+	SELECT = 1'b1;
+	CLR = 1'b0;
+	CE = 1'b1;
     #10000; //50000
 	CLK = 1'b0;
     #10000; //60000
@@ -75,8 +75,8 @@ begin : STIMUL // begin of stimulus process
     #10000; //130000
 	CLK = 1'b0;
     #10000; //140000
-	SELECT = 1'b0;
 	CLK = 1'b1;
+	SELECT = 1'b0;
     #10000; //150000
 	CLK = 1'b0;
     #10000; //160000
@@ -116,8 +116,8 @@ begin : STIMUL // begin of stimulus process
     #10000; //330000
 	CLK = 1'b0;
     #10000; //340000
-	SELECT = 1'b1;
 	CLK = 1'b1;
+	SELECT = 1'b1;
     #10000; //350000
 	CLK = 1'b0;
     #10000; //360000
@@ -137,8 +137,8 @@ begin : STIMUL // begin of stimulus process
     #10000; //430000
 	CLK = 1'b0;
     #10000; //440000
-	SELECT = 1'b0;
 	CLK = 1'b1;
+	SELECT = 1'b0;
     #10000; //450000
 	CLK = 1'b0;
     #10000; //460000
@@ -198,8 +198,8 @@ begin : STIMUL // begin of stimulus process
     #10000; //730000
 	CLK = 1'b0;
     #10000; //740000
-	SELECT = 1'b1;
 	CLK = 1'b1;
+	SELECT = 1'b1;
     #10000; //750000
 	CLK = 1'b0;
     #10000; //760000
@@ -209,8 +209,8 @@ begin : STIMUL // begin of stimulus process
     #10000; //780000
 	CLK = 1'b1;
     #10000; //790000
-	SELECT = 1'b0;
 	CLK = 1'b0;
+	SELECT = 1'b0;
     #10000; //800000
 	CLK = 1'b1;
     #10000; //810000
@@ -240,9 +240,9 @@ begin : STIMUL // begin of stimulus process
     #10000; //930000
 	CLK = 1'b0;
     #10000; //940000
-	STOP = 1'b1;
-	SELECT = 1'b1;
 	CLK = 1'b1;
+	SELECT = 1'b1;
+	STOP = 1'b1;
     #10000; //950000
 	CLK = 1'b0;
     #10000; //960000
@@ -262,8 +262,8 @@ begin : STIMUL // begin of stimulus process
     #10000; //1030000
 	CLK = 1'b0;
     #10000; //1040000
-	Set_Impulse = 1'b1;
 	CLK = 1'b1;
+	Set_Impulse = 1'b1;
 	D1 = 1'b1;
     #10000; //1050000
 	CLK = 1'b0;
@@ -283,8 +283,8 @@ begin : STIMUL // begin of stimulus process
     #10000; //1110000
 	CLK = 1'b0;
     #10000; //1120000
-	D3 = 1'b1;
 	CLK = 1'b1;
+	D3 = 1'b1;
     #10000; //1130000
 	CLK = 1'b0;
     #10000; //1140000
@@ -293,8 +293,8 @@ begin : STIMUL // begin of stimulus process
     #10000; //1150000
 	CLK = 1'b0;
     #10000; //1160000
-	D4 = 1'b1;
 	CLK = 1'b1;
+	D4 = 1'b1;
     #10000; //1170000
 	CLK = 1'b0;
     #10000; //1180000
@@ -331,9 +331,9 @@ begin : STIMUL // begin of stimulus process
     #10000; //1330000
 	CLK = 1'b0;
     #10000; //1340000
+	CLK = 1'b1;
 	STOP = 1'b0;
 	Set_Impulse = 1'b0;
-	CLK = 1'b1;
 	D1 = 1'b0;
     #10000; //1350000
 	CLK = 1'b0;

@@ -1,27 +1,9 @@
-Active-HDL 15.0.261.9132 2025-01-27 08:59:35
+Active-HDL 15.0.261.9132 2025-01-27 09:53:03
 
 Elaboration top modules:
-Verilog Module                Top
 
 
----------------------------------------------------------------------------------------------------
-Verilog Module          | Library       | Info | Compiler Version          | Compilation Options
----------------------------------------------------------------------------------------------------
-Top                     | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Decoder                 | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Seven_seg_driver        | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Timer_Clock             | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Switch                  | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Prescaler               | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Overflow_Handler        | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Timer_Setter            | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Second_counter          | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Minute_counter          | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-Counter                 | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
----------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 Library                 | Comment
----------------------------------------------------------------------------------------------------
-zegarszachowy           | None
----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------

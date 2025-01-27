@@ -1,4 +1,4 @@
-194
+278
 ~M 0 "" 0 $root
 ~A 1 "" 0 $root
 ~M 1 "../src/Counter.v" 3 Counter
@@ -37,3 +37,7 @@
 ~A 1 "./../compile/Top.v" 30 Top
 ~M 3 "../src/TestBench/Top_TB.v" 4 Top_TB
 ~A 1 "../src/TestBench/Top_TB.v" 4 Top_TB
+~M 3 "../src/TestBench/Top_TB_synth.v" 22 Top_tb_synth
+~A 1 "../src/TestBench/Top_TB_synth.v" 22 Top_tb_synth
+~M 3 "../src/TestBench/Top_TB_timing.v" 22 Top_tb_timing
+~A 1 "../src/TestBench/Top_TB_timing.v" 22 Top_tb_timing

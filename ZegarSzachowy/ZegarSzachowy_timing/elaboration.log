@@ -1,0 +1,68 @@
+Active-HDL 15.0.261.9132 2025-01-27 10:16:37
+
+Elaboration top modules:
+Verilog Module                Top_tb_tim
+Verilog Module                glbl
+
+
+------------------------------------------------------------------------------------------------------------------------------
+Verilog Module          | Library              | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------------------------------------
+Top_tb_tim              | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+glbl                    | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Top                     | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+IBUF                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+BUFG                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+Decoder                 | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Decoder_0               | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Seven_seg_driver        | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Clock             | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Clock_1           | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Switch                  | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Prescaler               | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Setter            | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+OBUF                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+FDCE                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+LUT4                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+LUT6                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+LUT1                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+LUT2                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+LUT3                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+LUT5                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+MUXF7                   | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+Minute_counter_5        | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Second_counter_6        | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_9               | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_10              | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+FDPE                    | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+Counter_7               | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_8               | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Minute_counter          | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Second_counter          | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_3               | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_4               | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter                 | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_2               | zegarszachowy_timing |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+CARRY4                  | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
+UDP                     | Library              | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------------------------------------
+x_lut1_mux2             | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+x_lut2_mux4             | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+x_lut3_mux8             | simprims_ver         |      | 15.0.261.9132 (Windows64) | +define+XIL_TIMING -vendor Xilinx -sv2k12
+------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
+Library                 | Comment
+------------------------------------------------------------------------------------------------------------------------------
+simprims_ver            | Xilinx Vivado 2023.2.2, SIMPRIM Verilog library
+zegarszachowy_timing    | None
+------------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r Top_tb_tim glbl -L C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx\vivado\simprims_ver -sdftyp -AUTO="C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy/implement/TutorVerilog.sdf"
+
+
+The performance of simulation is reduced. Version Student Edition

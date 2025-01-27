@@ -4,7 +4,7 @@ VCS=0
 version=4
 Current Config=compile
 [Configurations]
-compile=ZegarSzachowy
+compile=ZegarSzachowy_post_synthesis
 [Library]
 ZegarSzachowy=.\ZegarSzachowy\ZegarSzachowy.lib
 ZegarSzachowy_post_synthesis=.\ZegarSzachowy_post_synthesis\ZegarSzachowy_post_synthesis.lib
@@ -75,6 +75,10 @@ TestBench/Timer_Clock_TB.v=-1
 TestBench/Timer_Clock_TB_runtest.do=-1
 TestBench/Top_TB.v=-1
 TestBench/Top_TB_runtest.do=-1
+TestBench/Top_TB_tim.v=-1
+TestBench/Top_TB_tim_runtest.do=-1
+TestBench/Top_TB_synth.v=-1
+TestBench/Top_TB_synth_runtest.do=-1
 post-synthesis/..\..\synthesis\Top.edn=-1
 post-synthesis/..\..\synthesis\glbl.v=-1
 post-synthesis/..\..\synthesis\Top.v=-1
@@ -110,6 +114,10 @@ timing/..\..\implement\glbl.v=-1
 .\src\TestBench\Timer_Clock_TB_runtest.do=Macro
 .\src\TestBench\Top_TB.v=Verilog Source Code
 .\src\TestBench\Top_TB_runtest.do=Macro
+.\src\TestBench\Top_TB_tim.v=Verilog Source Code
+.\src\TestBench\Top_TB_tim_runtest.do=Macro
+.\src\TestBench\Top_TB_synth.v=Verilog Source Code
+.\src\TestBench\Top_TB_synth_runtest.do=Macro
 .\synthesis\Top.edn=EDIF Netlist
 .\synthesis\glbl.v=VERILOG SOURCE CODE
 .\synthesis\Top.v=Verilog Source Code
@@ -416,3 +424,7 @@ ARTIX7=
 [SIM.TIME]
 TOPLEVEL=Top glbl
 SDF_PATH=implement\Top.sdf
+[sdf.vmm.Top_tb_synth glbl]
+0=implement\Top.sdf| /Top_tb_synth/UUT, Average, No
+[sdf.vmm.Top_tb_tim glbl]
+0=implement\Top.sdf| /Top_tb_tim/UUT, Average, No
