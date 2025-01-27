@@ -1,0 +1,59 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="bcf4d40cd89ba280966719ef75000000">Top.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+        <signal>/Top_TB/CLK</signal>
+        <signal>/Top_TB/CLR</signal>
+        <signal>/Top_TB/CE</signal>
+        <signal>/Top_TB/SELECT</signal>
+        <signal>/Top_TB/STOP</signal>
+        <signal>/Top_TB/Set_Impulse</signal>
+        <signal>/Top_TB/D1</signal>
+        <signal>/Top_TB/D2</signal>
+        <signal>/Top_TB/D3</signal>
+        <signal>/Top_TB/D4</signal>
+        <signal>/Top_TB/D5</signal>
+        <signal>/Top_TB/D6</signal>
+        <signal>/Top_TB/D7</signal>
+        <signal>/Top_TB/D8</signal>
+        <signal>/Top_TB/seg_out</signal>
+        <signal>/Top_TB/seg_select</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="2022855" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="470526" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

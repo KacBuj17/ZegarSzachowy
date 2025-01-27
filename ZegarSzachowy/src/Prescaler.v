@@ -33,7 +33,7 @@ output CEO;
 	
 
 reg [26:0] Divider;           					// internal divider register 
-integer DIVIDE_FACTOR = 4;         	 	// divide factor user constant
+integer DIVIDE_FACTOR = 100_000_000;         	 	// divide factor user constant
 												     						// remember to adjust lenght of Divider register when DIVIDE_FACTOR is being changed
 
 	always @(posedge CLK, posedge CLR)

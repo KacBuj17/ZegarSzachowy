@@ -1,24 +1,23 @@
-Active-HDL 15.0.261.9132 2025-01-07 14:55:03
+Active-HDL 15.0.261.9132 2025-01-27 08:59:35
 
 Elaboration top modules:
-Verilog Module                Top_TB
+Verilog Module                Top
 
 
 ---------------------------------------------------------------------------------------------------
 Verilog Module          | Library       | Info | Compiler Version          | Compilation Options
 ---------------------------------------------------------------------------------------------------
-Top_TB                  | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Top                     | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Switch                  | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Seven_seg_driver        | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Prescaler               | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Timer_Clock             | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Decoder                 | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Overflow_Handler        | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Timer_Setter            | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Second_counter          | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Minute_counter          | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
-Counter                 | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k17
+Top                     | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Decoder                 | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Seven_seg_driver        | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Clock             | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Switch                  | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Prescaler               | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Overflow_Handler        | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Setter            | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Second_counter          | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Minute_counter          | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter                 | zegarszachowy |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
 ---------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------
@@ -26,9 +25,3 @@ Library                 | Comment
 ---------------------------------------------------------------------------------------------------
 zegarszachowy           | None
 ---------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim +access +r Top_TB
-
-
-The performance of simulation is reduced. Version Student Edition

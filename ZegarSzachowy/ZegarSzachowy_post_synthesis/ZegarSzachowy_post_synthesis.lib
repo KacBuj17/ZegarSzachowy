@@ -1,5 +1,317 @@
-timestamp=1736257857277
+timestamp=1737967212642
 
 [~A]
-ModifyID=1
+C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/synthesis/glbl.v_Top.v=0*224027*243376
+LastVerilogToplevel=Top
+ModifyID=140
+Version=74
 
+[~MFT]
+0=27|0ZegarSzachowy_post_synthesis.mgf|243376|139767
+1=46|1ZegarSzachowy_post_synthesis.mgf|1145472|1016281
+3=92|3ZegarSzachowy_post_synthesis.mgf|116701|102599
+
+[$root]
+A/$root=22|||1*1016281
+BinW64/$root=3*102599
+SLP=3*102714
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|c73a565f2ade592f8ac1c68f484c9216dde9d510cc95b75d77a801ffc2a2306e
+
+[Counter]
+A/Counter=22|../synthesis/Top.v|16|1*1021152
+BinW64/Counter=3*104522
+R=../synthesis/Top.v|16
+SLP=3*104639
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|06226efa8082c213e6fdeb1e63816e2526527262ddaa47cb266f3a3c4d9b973abf57f09c1a298be9b56fcb07c6a66b53
+
+[Counter_10]
+A/Counter_10=22|../synthesis/Top.v|144|1*1025369
+BinW64/Counter_10=3*105109
+R=../synthesis/Top.v|144
+SLP=3*105229
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|fbee36f492083090408ced3703d08305a4f2f1b0317df8abd92484fc93f021a94a209b7eac4dbe8f5652d54b84f0051f
+
+[Counter_2]
+A/Counter_2=22|../synthesis/Top.v|305|1*1030699
+BinW64/Counter_2=3*105788
+R=../synthesis/Top.v|305
+SLP=3*105907
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|5d409b187561a54865f9dfd71fa8ad157dbc6c096e62a2c3a1caba0cfcca9cfb8a019e29501c49d783a1b1dd5107db0f
+
+[Counter_3]
+A/Counter_3=22|../synthesis/Top.v|475|1*1036267
+BinW64/Counter_3=3*106494
+R=../synthesis/Top.v|475
+SLP=3*106613
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|e137ddfa3f6485b3f019657ed25cff8af14d285131be0677843acf48eb96078de2dc9300cdb009d7262706f1c10bcdd2
+
+[Counter_4]
+A/Counter_4=22|../synthesis/Top.v|559|1*1039368
+BinW64/Counter_4=3*106834
+R=../synthesis/Top.v|559
+SLP=3*106953
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|e01eb6edd8c4ce29d25cbe007f0ee5717ed1962cd8a463e0c3cff0b107a8bcd6a1d1bc5a3155b7db309204ac24ee8aea
+
+[Counter_7]
+A/Counter_7=22|../synthesis/Top.v|720|1*1044715
+BinW64/Counter_7=3*107515
+R=../synthesis/Top.v|720
+SLP=3*107634
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|0025373ca63d7a6df0df36d368e2e6129154a7c95f37bb87f9578e47fc7cbccbf35f62a4c20d98d73bfd019f5e197160
+
+[Counter_8]
+A/Counter_8=22|../synthesis/Top.v|848|1*1048929
+BinW64/Counter_8=3*108107
+R=../synthesis/Top.v|848
+SLP=3*108226
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|72f29f380b3202e1dd0a6e8c94b45744f2d9b960cb1a5601c05396147e6c2d7381621f751a94cebf4cf27f8005e71720
+
+[Counter_9]
+A/Counter_9=22|../synthesis/Top.v|1015|1*1054144
+BinW64/Counter_9=3*108918
+R=../synthesis/Top.v|1015
+SLP=3*109037
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|08d2d1cb8b883a6da9de8781b949b3a76a94e02f0b578585f46d9602a1f7939681621f751a94cebf4cf27f8005e71720
+
+[Counter_TB]
+A/Counter_TB=*22|../src/TestBench/Counter_TB.v|24|
+
+[Decoder]
+A/Decoder=22|../synthesis/Top.v|1098|1*1057266
+BinW64/Decoder=3*109258
+R=../synthesis/Top.v|1098
+SLP=3*109375
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|1c17319664848e6a353a8c8fab86b23826527262ddaa47cb266f3a3c4d9b973a44b3aad94e42e245f83627ef32bbb26c
+
+[Decoder_0]
+A/Decoder_0=22|../synthesis/Top.v|1460|1*1068639
+BinW64/Decoder_0=3*110707
+R=../synthesis/Top.v|1460
+SLP=3*110826
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|29a9df0cb41e3414e94456f4482b4ace862c2bb94a1209b1b61bae69d104b05b1a2ba39667ebcd90ae25b04b69f73e15
+
+[Decoder_TB]
+A/Decoder_TB=*22|../src/TestBench/Decoder_TB.v|24|
+
+[Minute_counter]
+A/Minute_counter=22|../synthesis/Top.v|1845|1*1082372
+BinW64/Minute_counter=3*111565
+R=../synthesis/Top.v|1845
+SLP=3*111689
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|995b17593f515109a403ac684c43c4271adbbe60e94d34620eb1111afff33b46659926dcfbb23e250b896aed33823c5d
+
+[Minute_counter_5]
+A/Minute_counter_5=22|../synthesis/Top.v|1899|1*1084578
+BinW64/Minute_counter_5=3*111877
+R=../synthesis/Top.v|1899
+SLP=3*112003
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|995b17593f515109a403ac684c43c42787e678810da5fd5360a4eb5d630ffa9bd1e4a67a505c5ac957578171aa125ab2
+
+[Overflow_Handler]
+A/Overflow_Handler=*22|../src/Overflow_Handler.v|27|
+
+[Overflow_Handler_TB]
+A/Overflow_Handler_TB=*22|../src/TestBench/Overflow_Handler_TB.v|4|
+
+[Prescaler]
+A/Prescaler=22|../synthesis/Top.v|1952|1*1086793
+BinW64/Prescaler=3*112196
+R=../synthesis/Top.v|1952
+SLP=3*112315
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|ab2da49470fce20409faaaad0a67e09dc81403c949c973d597ca82dc9410a01bf608e26afbfb240b4de0d52d6ed76843
+
+[Second_counter]
+A/Second_counter=22|../synthesis/Top.v|2729|1*1114726
+BinW64/Second_counter=3*113550
+R=../synthesis/Top.v|2729
+SLP=3*113674
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|361a491f4d69b26523ff0efbe82c03ffcb44c3ea62b47aef4aded63c910444ab36f9afdb186765585afd305df5c898a4
+
+[Second_counter_6]
+A/Second_counter_6=22|../synthesis/Top.v|2776|1*1116643
+BinW64/Second_counter_6=3*113849
+R=../synthesis/Top.v|2776
+SLP=3*113975
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|361a491f4d69b26523ff0efbe82c03ff5c462d25419c918ec5c8ee1e6702445b339bbb7826bf944841984c28490fa31b
+
+[Seven_seg_driver]
+A/Seven_seg_driver=22|../synthesis/Top.v|2822|1*1118570
+BinW64/Seven_seg_driver=3*114156
+R=../synthesis/Top.v|2822
+SLP=3*114282
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|2de2f439cd2d73de1c58504b03359eaccc8366f3f436b9cb6975108eaec90e99b423313f08622f3534e853c4dbec4372
+
+[Seven_seg_driver_tb]
+A/Seven_seg_driver_tb=*22|../src/TestBench/Seven_seg_driver_TB.v|23|
+
+[Switch]
+A/Switch=22|../synthesis/Top.v|3203|1*1131912
+BinW64/Switch=3*115242
+R=../synthesis/Top.v|3203
+SLP=3*115358
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|19719af1dd039ab73c91654d2c0111653a0e26423985181e108f3f4971931df1
+
+[Switch_TB]
+A/Switch_TB=*22|../src/TestBench/Switch_TB.v|4|
+
+[Timer_Clock]
+A/Timer_Clock=22|../synthesis/Top.v|3266|1*1134115
+BinW64/Timer_Clock=3*115478
+R=../synthesis/Top.v|3266
+SLP=3*115599
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|0fd752a25fb8b40fde50008d56150ec9cc895cf32aa737a44e8a9da7dbe1e39064ac83edb3c8f36ab45b0d24ae65bc56
+
+[Timer_Clock_1]
+A/Timer_Clock_1=22|../synthesis/Top.v|3334|1*1136767
+BinW64/Timer_Clock_1=3*115884
+R=../synthesis/Top.v|3334
+SLP=3*116007
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|7d1fb889688de91c83497bead569cb7e6de31f8eecc82e53228a327adcef869f25661b7a0d39c040a5ba6ebba7fe8e99
+
+[Timer_Clock_TB]
+A/Timer_Clock_TB=*22|../src/TestBench/Timer_Clock_TB.v|5|
+
+[Timer_Setter]
+A/Timer_Setter=22|../synthesis/Top.v|3401|1*1139423
+BinW64/Timer_Setter=3*116296
+R=../synthesis/Top.v|3401
+SLP=3*116418
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|86424c597dbc2c8c2921761fe0e078d2c1930257f98a55498fb3adb5e9a9593e61791a2a08c6b5c2cf5afd304b3f6fc5
+
+[Top]
+A/Top=22|../synthesis/Top.v|3606|1*1145472
+BinW64/Top=3*116588
+R=../synthesis/Top.v|3606
+SLP=3*116701
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|f8911ddcb55ae6ffc9fa5b00358c0e0883ff7c1734b302e070e74858ef66d30d
+
+[Top_TB]
+A/Top_TB=*22|../src/TestBench/Top_TB.v|4|
+
+[Top_tb_synth]
+A/Top_tb_synth=*22|../src/TestBench/Top_TB_synth.v|22|
+
+[counter]
+A/counter=A/Counter *25|./../synthesis/top.edn|7|
+
+[counter_10]
+A/counter_10=A/Counter_10 *25|./../synthesis/top.edn|7|
+
+[counter_2]
+A/counter_2=A/Counter_2 *25|./../synthesis/top.edn|7|
+
+[counter_3]
+A/counter_3=A/Counter_3 *25|./../synthesis/top.edn|7|
+
+[counter_4]
+A/counter_4=A/Counter_4 *25|./../synthesis/top.edn|7|
+
+[counter_7]
+A/counter_7=A/Counter_7 *25|./../synthesis/top.edn|7|
+
+[counter_8]
+A/counter_8=A/Counter_8 *25|./../synthesis/top.edn|7|
+
+[counter_9]
+A/counter_9=A/Counter_9 *25|./../synthesis/top.edn|7|
+
+[decoder]
+A/decoder=A/Decoder *25|./../synthesis/top.edn|7|
+
+[decoder_0]
+A/decoder_0=A/Decoder_0 *25|./../synthesis/top.edn|7|
+
+[glbl]
+A/glbl=22|../synthesis/glbl.v|6|1*1016655
+BinW64/glbl=3*102782
+R=../synthesis/glbl.v|6
+SLP=3*104020
+Version=15.0.261.9132 (Windows64)|00000015789cd3f53752d0cd51700c0af18c3057d02d2e33ca363402003987057d|e453c9fe98ea743e4315e0b5669101f1edfedf0cecf2ba4c45f0e9cc24ec8d65
+
+[minute_counter]
+A/minute_counter=A/Minute_counter *25|./../synthesis/top.edn|7|
+
+[minute_counter_5]
+A/minute_counter_5=A/Minute_counter_5 *25|./../synthesis/top.edn|7|
+
+[prescaler]
+A/prescaler=A/Prescaler *25|./../synthesis/top.edn|7|
+
+[second_counter]
+A/second_counter=A/Second_counter *25|./../synthesis/top.edn|7|
+
+[second_counter_6]
+A/second_counter_6=A/Second_counter_6 *25|./../synthesis/top.edn|7|
+
+[seven_seg_driver]
+A/seven_seg_driver=A/Seven_seg_driver *25|./../synthesis/top.edn|7|
+
+[switch]
+A/switch=A/Switch *25|./../synthesis/top.edn|7|
+
+[timer_clock]
+A/timer_clock=A/Timer_Clock *25|./../synthesis/top.edn|7|
+
+[timer_clock_1]
+A/timer_clock_1=A/Timer_Clock_1 *25|./../synthesis/top.edn|7|
+
+[timer_setter]
+A/timer_setter=A/Timer_Setter *25|./../synthesis/top.edn|7|
+
+[top]
+A/top=A/Top *25|./../synthesis/top.edn|7|
+
+[~U]
+$root=12|0*215414|
+Counter=12|0*215959|
+Counter_10=12|0*216274|
+Counter_2=12|0*216609|
+Counter_3=12|0*216948|
+Counter_4=12|0*217252|
+Counter_7=12|0*217584|
+Counter_8=12|0*217897|
+Counter_9=12|0*218230|
+Counter_TB=12|0*2576||0x10
+Decoder=12|0*218535|
+Decoder_0=12|0*218990|
+Decoder_TB=12|0*3660||0x10
+Minute_counter=12|0*219450|
+Minute_counter_5=12|0*219792|
+Overflow_Handler=12|0*4519|
+Overflow_Handler_TB=12|0*4760||0x10
+Prescaler=12|0*220140|
+Second_counter=12|0*220766|
+Second_counter_6=12|0*221092|
+Seven_seg_driver=12|0*221425|
+Seven_seg_driver_tb=12|0*6778||0x10
+Switch=12|0*221970|
+Switch_TB=12|0*7238||0x10
+Timer_Clock=12|0*222242|
+Timer_Clock_1=12|0*222625|
+Timer_Clock_TB=12|0*8166||0x10
+Timer_Setter=12|0*223003|
+Top=12|0*223384||0x10
+Top_TB=12|0*9399||0x10
+Top_tb_synth=12|0*9650||0x10
+counter=Counter 13|0*9823|
+counter_10=Counter_10 13|0*10083|
+counter_2=Counter_2 13|0*10295|
+counter_3=Counter_3 13|0*10540|
+counter_4=Counter_4 13|0*10780|
+counter_7=Counter_7 13|0*10990|
+counter_8=Counter_8 13|0*11252|
+counter_9=Counter_9 13|0*11497|
+decoder=Decoder 13|0*11738|
+decoder_0=Decoder_0 13|0*12006|
+glbl=12|0*215756||0x10
+minute_counter=Minute_counter 13|0*12482|
+minute_counter_5=Minute_counter_5 13|0*12743|
+prescaler=Prescaler 13|0*13007|
+second_counter=Second_counter 13|0*13206|
+second_counter_6=Second_counter_6 13|0*13479|
+seven_seg_driver=Seven_seg_driver 13|0*13756|
+switch=Switch 13|0*14059|
+timer_clock=Timer_Clock 13|0*14275|
+timer_clock_1=Timer_Clock_1 13|0*14543|
+timer_setter=Timer_Setter 13|0*14815|
+top=Top 13|0*15106|

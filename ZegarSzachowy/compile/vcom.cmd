@@ -1,0 +1,1 @@
+-w -d C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/compile -s C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/library.cfg -j C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/projlib.cfg -work zegarszachowy -work ARTIX7 ../compile/Top.v 

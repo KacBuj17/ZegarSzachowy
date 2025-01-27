@@ -8,7 +8,7 @@
 //-----------------------------------------------------------------------------
 //
 // File        : C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\compile\Top.v
-// Generated   : Tue Jan  7 14:12:52 2025
+// Generated   : Mon Jan 27 09:23:29 2025
 // From        : C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\src\Top.bde
 // By          : Bde2Verilog ver. 2.01
 //
@@ -98,16 +98,36 @@ wire [6:0] BUS9149;
 
 // -------- Component instantiations -------//
 
-Switch U1
+Decoder U13
 (
 	.CLK(CLK),
 	.CLR(CLR),
 	.CE(CE),
-	.SELECT(SELECT),
-	.STOP(STOP),
-	.END(END),
-	.Enable_p1(ENABLE1),
-	.Enable_p2(ENABLE2)
+	.digit0(BUS4130),
+	.digit1(BUS4126),
+	.digit2(BUS4122),
+	.digit3(BUS4118),
+	.seg0(BUS1178),
+	.seg1(BUS1184),
+	.seg2(BUS1190),
+	.seg3(BUS1196)
+);
+
+
+
+Decoder U14
+(
+	.CLK(CLK),
+	.CLR(CLR),
+	.CE(CE),
+	.digit0(BUS4114),
+	.digit1(BUS4110),
+	.digit2(BUS4100),
+	.digit3(BUS4096),
+	.seg0(BUS9125),
+	.seg1(BUS9133),
+	.seg2(BUS9141),
+	.seg3(BUS9149)
 );
 
 
@@ -127,16 +147,6 @@ Seven_seg_driver U15
 	.seg8(BUS9149),
 	.seg_out(seg_out),
 	.seg_select(seg_select)
-);
-
-
-
-Prescaler U2
-(
-	.CLK(CLK),
-	.CE(CE),
-	.CLR(CLR),
-	.CEO(CEO)
 );
 
 
@@ -179,36 +189,26 @@ Timer_Clock U4
 
 
 
-Decoder U5
+Switch U5
 (
 	.CLK(CLK),
 	.CLR(CLR),
 	.CE(CE),
-	.digit0(BUS4114),
-	.digit1(BUS4110),
-	.digit2(BUS4100),
-	.digit3(BUS4096),
-	.seg0(BUS9125),
-	.seg1(BUS9133),
-	.seg2(BUS9141),
-	.seg3(BUS9149)
+	.SELECT(SELECT),
+	.STOP(STOP),
+	.END(END),
+	.Enable_p1(ENABLE1),
+	.Enable_p2(ENABLE2)
 );
 
 
 
-Decoder U6
+Prescaler U6
 (
 	.CLK(CLK),
-	.CLR(CLR),
 	.CE(CE),
-	.digit0(BUS4130),
-	.digit1(BUS4126),
-	.digit2(BUS4122),
-	.digit3(BUS4118),
-	.seg0(BUS1178),
-	.seg1(BUS1184),
-	.seg2(BUS1190),
-	.seg3(BUS1196)
+	.CLR(CLR),
+	.CEO(CEO)
 );
 
 
