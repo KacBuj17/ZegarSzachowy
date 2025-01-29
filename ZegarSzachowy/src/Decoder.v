@@ -51,6 +51,11 @@ function [6:0] digit_to_7seg;
     endcase
 endfunction
 
+function [6:0] reverse;
+	input [6:0] digit_to_7seg;
+	reverse = ~digit_to_7seg;
+endfunction
+
 
 always @(posedge CLK or posedge CLR) begin
     if (CLR) begin
@@ -59,10 +64,10 @@ always @(posedge CLK or posedge CLR) begin
         seg2 = 7'b0000000;
         seg3 = 7'b0000000;
     end else if (CE) begin
-        seg0 = digit_to_7seg(digit0);
-        seg1 = digit_to_7seg(digit1);
-        seg2 = digit_to_7seg(digit2);
-        seg3 = digit_to_7seg(digit3);
+        seg0 = reverse(digit_to_7seg(digit0));
+        seg1 = reverse(digit_to_7seg(digit1));
+        seg2 = reverse(digit_to_7seg(digit2));
+        seg3 = reverse(digit_to_7seg(digit3));
     end
 end
 endmodule

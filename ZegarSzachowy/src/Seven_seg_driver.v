@@ -42,8 +42,8 @@ module Seven_seg_driver (
 	
 	// -- Enter your statements here -- //
 	
-	reg [3:0] counter1;
-	reg [2:0] counter2;
+	reg [3:0] counter1 = 4'b0;
+	reg [2:0] counter2 = 3'b0;
 	
 	always @(posedge CLK or posedge CLR) begin
 			if (CLR) begin
@@ -64,7 +64,7 @@ module Seven_seg_driver (
 								4'd5: begin seg_out <= seg6; seg_select <= 8'b00100000; end
 								4'd6: begin seg_out <= seg7; seg_select <= 8'b01000000; end
 								4'd7: begin seg_out <= seg8; seg_select <= 8'b10000000; end
-								default: begin seg_out <= 7'b0000000; seg_select <= 8'b00000000; counter2 <= 4'b0; end
+								default: begin seg_out <= 7'b0000000; seg_select <= 8'b00000000; counter2 <= 3'b0; end
 							endcase
 							counter2 <= counter2 + 1;
 						end

@@ -1,4 +1,4 @@
-Active-HDL 15.0.261.9132 2025-01-27 10:17:42
+Active-HDL 15.0.261.9132 2025-01-29 03:27:58
 
 Elaboration top modules:
 Verilog Module                Top_tb_synth
@@ -22,20 +22,20 @@ Switch                  | zegarszachowy_post_synthesis |      | 15.0.261.9132 (W
 Prescaler               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
 Timer_Setter            | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
 OBUF                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
-FDCE                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+FDPE                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 LUT4                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 LUT6                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 VCC                     | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 LUT1                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 LUT2                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 LUT3                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+FDCE                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 LUT5                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 MUXF7                   | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 Minute_counter_5        | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
 Second_counter_6        | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
 Counter_9               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
 Counter_10              | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
-FDPE                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
 Counter_7               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
 Counter_8               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
 Minute_counter          | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12

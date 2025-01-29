@@ -21,7 +21,7 @@ module Top_TB();
 	
 	
 	wire [6:0] seg_out;
-	wire [6:0] seg_select;
+	wire [7:0] seg_select;
 
     Top uut (
         .CLK(CLK),

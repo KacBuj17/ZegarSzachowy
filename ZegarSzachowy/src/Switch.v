@@ -18,17 +18,24 @@ module Switch (
         if (CLR) begin
             En1 <= 1'b0;
             En2 <= 1'b0;
-        end else if (CE) begin
+        end 
+		else if (CE) begin
             if (~STOP) begin
                 if (~END) begin
                     En1 <= ~SELECT;
                     En2 <= SELECT;
                 end
-            end else begin
+				else begin
+	                En1 <= 1'b0;
+	                En2 <= 1'b0;
+            	end
+            end 
+			else begin
                 En1 <= 1'b0;
                 En2 <= 1'b0;
             end
-        end else begin
+        end 
+		else begin
             En1 <= 1'b0;
             En2 <= 1'b0;
         end

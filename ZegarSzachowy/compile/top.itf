@@ -1,36 +1,45 @@
 E Counter EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
-P D _out std_logic_vector[6:0]
+P COUNT_reg _out std_logic_vector[0;0]
+P CE_IBUF _in std_logic
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0]_0 _in std_logic
-P COUNT_reg[2]_0 _out std_logic
+P COUNT_reg[0]_0 _out std_logic
+P COUNT_reg[0]_2 _in std_logic
+P COUNT_reg[0]_3 _in std_logic
+P COUNT_reg[0]_4 _in std_logic
+P COUNT_reg[0]_5 _in std_logic
+P COUNT_reg[2]_0 _in std_logic
+P COUNT_reg[2]_1 _in std_logic
+P COUNT_reg[2]_2 _in std_logic
+P En2_reg _out std_logic
+P ENABLE2 _in std_logic
 X Counter
 E Counter_10 EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0]_0 _in std_logic
+P COUNT_reg[0]_0 _out std_logic
 P COUNT_reg[0]_1 _in std_logic
-P COUNT_reg[0]_2 _in std_logic
-P COUNT_reg[3]_0 _out std_logic
 X Counter_10
 E Counter_2 EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
+P D _out std_logic_vector[6:0]
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0]_0 _out std_logic
-P COUNT_reg[0]_1 _in std_logic
-P COUNT_reg[0]_2 _in std_logic
-P COUNT_reg[3]_0 _out std_logic
+P COUNT_reg[0]_0 _in std_logic
+P COUNT_reg[2]_0 _out std_logic
+P ENABLE2 _in std_logic
+P NET7792 _in std_logic
+P r_D6_reg _out std_logic
 X Counter_2
 E Counter_3 EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
-P BUS4100 _out std_logic_vector[1:0]
+P BUS14456 _out std_logic_vector[1:0]
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
 P COUNT_reg[0]_0 _out std_logic
@@ -42,12 +51,28 @@ L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0]_0 _in std_logic
+P COUNT_reg[0]_0 _out std_logic
 P COUNT_reg[0]_1 _in std_logic
-P COUNT_reg[0]_2 _in std_logic
-P COUNT_reg[3]_0 _out std_logic
 X Counter_4
 E Counter_7 EDIF
+L IEEE;STD;
+U IEEE.STD_LOGIC_1164;
+P COUNT_reg _out std_logic_vector[0;0]
+P CE_IBUF _in std_logic
+P CLK_IBUF_BUFG _in std_logic
+P CLR_IBUF _in std_logic
+P COUNT_reg[0]_1 _in std_logic
+P COUNT_reg[0]_2 _in std_logic
+P COUNT_reg[0]_3 _in std_logic
+P COUNT_reg[0]_4 _in std_logic
+P COUNT_reg[2]_0 _out std_logic
+P COUNT_reg[2]_1 _in std_logic
+P COUNT_reg[2]_2 _in std_logic
+P COUNT_reg[2]_3 _in std_logic
+P En1_reg _out std_logic
+P ENABLE1 _in std_logic
+X Counter_7
+E Counter_8 EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
 P D _out std_logic_vector[6:0]
@@ -55,21 +80,14 @@ P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
 P COUNT_reg[0]_0 _in std_logic
 P COUNT_reg[2]_0 _out std_logic
-X Counter_7
-E Counter_8 EDIF
-L IEEE;STD;
-U IEEE.STD_LOGIC_1164;
-P CLK_IBUF_BUFG _in std_logic
-P CLR_IBUF _in std_logic
-P COUNT_reg[0]_0 _out std_logic
-P COUNT_reg[0]_1 _in std_logic
-P COUNT_reg[0]_2 _in std_logic
-P COUNT_reg[3]_0 _out std_logic
+P ENABLE1 _in std_logic
+P NET7772 _in std_logic
+P r_D2_reg _out std_logic
 X Counter_8
 E Counter_9 EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
-P BUS4122 _out std_logic_vector[1:0]
+P BUS14398 _out std_logic_vector[1:0]
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
 P COUNT_reg[0]_0 _out std_logic
@@ -79,11 +97,11 @@ X Counter_9
 E Decoder EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
-P BUS4122 _in std_logic_vector[3:0]
+P BUS14398 _in std_logic_vector[3:0]
 P counter2 _in std_logic_vector[1:0]
 P D _in std_logic_vector[6:0]
 P seg1_reg _in std_logic_vector[6:0]
-P seg3_reg _in std_logic_vector[6:0]
+P seg2_reg _in std_logic_vector[6:0]
 P CE_IBUF _in std_logic
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
@@ -98,11 +116,11 @@ X Decoder
 E Decoder_0 EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
-P BUS4100 _in std_logic_vector[3:0]
+P BUS14456 _in std_logic_vector[3:0]
 P counter2 _in std_logic_vector[1:0]
 P D _in std_logic_vector[6:0]
 P seg1_reg _in std_logic_vector[6:0]
-P seg3_reg _in std_logic_vector[6:0]
+P seg2_reg _in std_logic_vector[6:0]
 P CE_IBUF _in std_logic
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
@@ -117,30 +135,26 @@ X Decoder_0
 E Minute_counter EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
-P BUS4100 _out std_logic_vector[1:0]
+P BUS14456 _out std_logic_vector[1:0]
+P COUNT_reg _out std_logic_vector[0;0]
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0] _out std_logic
-P COUNT_reg[0]_0 _in std_logic
+P COUNT_reg[0]_0 _out std_logic
 P COUNT_reg[0]_1 _in std_logic
 P COUNT_reg[0]_2 _in std_logic
-P COUNT_reg[0]_3 _in std_logic
-P COUNT_reg[1] _out std_logic
-P COUNT_reg[3] _out std_logic
+P COUNT_reg[1]_0 _out std_logic
 X Minute_counter
 E Minute_counter_5 EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
-P BUS4122 _out std_logic_vector[1:0]
+P BUS14398 _out std_logic_vector[1:0]
+P COUNT_reg _out std_logic_vector[0;0]
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0] _out std_logic
-P COUNT_reg[0]_0 _in std_logic
+P COUNT_reg[0]_0 _out std_logic
 P COUNT_reg[0]_1 _in std_logic
 P COUNT_reg[0]_2 _in std_logic
-P COUNT_reg[0]_3 _in std_logic
-P COUNT_reg[1] _out std_logic
-P COUNT_reg[3] _out std_logic
+P COUNT_reg[1]_0 _out std_logic
 X Minute_counter_5
 E Prescaler EDIF
 L IEEE;STD;
@@ -152,50 +166,62 @@ P CLR_IBUF _in std_logic
 P COUNT_reg[0]_0 _in std_logic
 P COUNT_reg[0]_1 _in std_logic
 P COUNT_reg[0]_2 _in std_logic
-P COUNT_reg[0]_3 _in std_logic
-P COUNT_reg[0]_4 _in std_logic
+P Divider_reg[10]_0 _out std_logic
+P Divider_reg[14]_0 _out std_logic
+P Divider_reg[6]_0 _out std_logic
+P Divider_reg[7]_0 _out std_logic
+P En1_reg _out std_logic
+P En2_reg _out std_logic
 P ENABLE1 _in std_logic
 P ENABLE2 _in std_logic
 P NET7768 _in std_logic
-P NET7772 _in std_logic
 P NET7776 _in std_logic
 P NET7780 _in std_logic
 P NET7784 _in std_logic
-P NET7792 _in std_logic
 P NET7800 _in std_logic
 P NET7808 _in std_logic
-P r_D1_reg _out std_logic
-P r_D2_reg _out std_logic
 P r_D3_reg _out std_logic
 P r_D4_reg _out std_logic
-P r_D5_reg _out std_logic
-P r_D6_reg _out std_logic
 P r_D7_reg _out std_logic
 P r_D8_reg _out std_logic
 X Prescaler
 E Second_counter EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
+P COUNT_reg _out std_logic_vector[0;0]
+P COUNT_reg _inout std_logic_vector[0;0]
 P D _out std_logic_vector[6:0]
+P CE_IBUF _in std_logic
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0] _out std_logic
-P COUNT_reg[0]_0 _in std_logic
 P COUNT_reg[0]_1 _in std_logic
-P COUNT_reg[2]_0 _out std_logic
-P COUNT_reg[3] _out std_logic
+P COUNT_reg[0]_2 _in std_logic
+P COUNT_reg[0]_3 _in std_logic
+P COUNT_reg[0]_4 _in std_logic
+P COUNT_reg[2] _in std_logic
+P COUNT_reg[2]_0 _in std_logic
+P En2_reg _out std_logic
+P ENABLE2 _in std_logic
+P NET7792 _in std_logic
 X Second_counter
 E Second_counter_6 EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
+P COUNT_reg _out std_logic_vector[2;2]
+P COUNT_reg _out std_logic_vector[0;0]
 P D _out std_logic_vector[6:0]
+P CE_IBUF _in std_logic
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0] _out std_logic
 P COUNT_reg[0]_0 _in std_logic
 P COUNT_reg[0]_1 _in std_logic
-P COUNT_reg[2]_0 _out std_logic
-P COUNT_reg[3] _out std_logic
+P COUNT_reg[0]_2 _in std_logic
+P COUNT_reg[0]_3 _in std_logic
+P COUNT_reg[2]_0 _in std_logic
+P COUNT_reg[2]_1 _in std_logic
+P En1_reg _out std_logic
+P ENABLE1 _in std_logic
+P NET7772 _in std_logic
 X Second_counter_6
 E Seven_seg_driver EDIF
 L IEEE;STD;
@@ -235,32 +261,44 @@ X Switch
 E Timer_Clock EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
-P BUS4122 _out std_logic_vector[3:0]
+P BUS14398 _out std_logic_vector[3:0]
+P COUNT_reg _out std_logic_vector[2;2]
+P COUNT_reg _out std_logic_vector[0;0]
 P D _out std_logic_vector[6:0]
+P CE_IBUF _in std_logic
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0] _out std_logic
 P COUNT_reg[0]_0 _in std_logic
 P COUNT_reg[0]_1 _in std_logic
 P COUNT_reg[0]_2 _in std_logic
 P COUNT_reg[0]_3 _in std_logic
-P COUNT_reg[3] _out std_logic
-P COUNT_reg[3]_0 _out std_logic
+P COUNT_reg[0]_4 _in std_logic
+P COUNT_reg[2]_0 _in std_logic
+P COUNT_reg[2]_1 _in std_logic
+P En1_reg _out std_logic
+P ENABLE1 _in std_logic
+P NET7772 _in std_logic
 X Timer_Clock
 E Timer_Clock_1 EDIF
 L IEEE;STD;
 U IEEE.STD_LOGIC_1164;
-P BUS4100 _out std_logic_vector[3:0]
+P BUS14456 _out std_logic_vector[3:0]
+P COUNT_reg _inout std_logic_vector[0;0]
+P COUNT_reg _out std_logic_vector[0;0]
 P D _out std_logic_vector[6:0]
+P CE_IBUF _in std_logic
 P CLK_IBUF_BUFG _in std_logic
 P CLR_IBUF _in std_logic
-P COUNT_reg[0] _out std_logic
-P COUNT_reg[0]_0 _in std_logic
 P COUNT_reg[0]_1 _in std_logic
 P COUNT_reg[0]_2 _in std_logic
 P COUNT_reg[0]_3 _in std_logic
-P COUNT_reg[3] _out std_logic
-P COUNT_reg[3]_0 _out std_logic
+P COUNT_reg[0]_4 _in std_logic
+P COUNT_reg[0]_5 _in std_logic
+P COUNT_reg[2] _in std_logic
+P COUNT_reg[2]_0 _in std_logic
+P En2_reg _out std_logic
+P ENABLE2 _in std_logic
+P NET7792 _in std_logic
 X Timer_Clock_1
 E Timer_Setter EDIF
 L IEEE;STD;
