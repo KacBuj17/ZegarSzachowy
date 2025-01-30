@@ -1,1 +1,0 @@
-@call "C:/Xilinx/Vivado/2023.2/bin/vivado.bat" -mode batch -log vivado.log -journal transcript.log -source "C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/implement/run_vivado.tcl"

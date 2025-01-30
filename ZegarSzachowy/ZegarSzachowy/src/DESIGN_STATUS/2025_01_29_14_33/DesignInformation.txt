@@ -1,0 +1,136 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : Design Flow Manager settings and simulation libraries
+-- Active-HDL : 14.0.258.8726
+-- Workspace  : ZegarSzachowy
+-- Design     : ZegarSzachowy
+-- Author     : student
+-- Company    : agh
+-- Date       : 2025-01-29 14:33:43
+--
+-------------------------------------------------------------------------------
+1. Design Flow Manager Settings
+------------------------------------------------------------------------------------
+Language           | VERILOG
+Flow Type          | HDL
+C Synthesis        | <none>  
+HDL Synthesis      | Xilinx Vivado 2019.1 Synthesis C:\Xilinx\Vivado\2019.1\bin
+Physical Synthesis | <none>  
+Implementation     | Xilinx Vivado 2019.1 Implementation C:\Xilinx\Vivado\2019.1\bin
+Family Name        | Xilinx2019x ARTIX7
+------------------------------------------------------------------------------------
+
+2. Working Library: ZegarSzachowy
+Active-HDL 14.0.258.8726 2025-01-29 14:21:47
+
+Elaboration top modules:
+Verilog Module                Top_TB
+
+
+---------------------------------------------------------------------------------------------------
+Verilog Module          | Library       | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------
+Top_TB                  | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Top                     | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Decoder                 | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Seven_seg_driver        | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Setter            | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Overflow_Handler        | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Prescaler               | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Switch                  | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Clock             | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Second_counter          | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Minute_counter          | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter                 | zegarszachowy |      | 14.0.258.8726 (Windows64) | -O2 -l ARTIX7 -sv2k12
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+Library                 | Comment
+---------------------------------------------------------------------------------------------------
+zegarszachowy           | None
+---------------------------------------------------------------------------------------------------
+
+3. Working Library: ZegarSzachowy_post_synthesis
+Active-HDL 15.0.261.9132 2025-01-29 03:27:58
+
+Elaboration top modules:
+Verilog Module                Top_tb_synth
+Verilog Module                glbl
+
+
+-------------------------------------------------------------------------------------------------------------------
+Verilog Module          | Library                      | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------------
+Top_tb_synth            | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+glbl                    | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Top                     | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+IBUF                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+BUFG                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+Decoder                 | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Decoder_0               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Seven_seg_driver        | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Clock             | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Clock_1           | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Switch                  | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Prescaler               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Timer_Setter            | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+OBUF                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+FDPE                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+LUT4                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+LUT6                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+VCC                     | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+LUT1                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+LUT2                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+LUT3                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+FDCE                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+LUT5                    | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+MUXF7                   | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+Minute_counter_5        | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Second_counter_6        | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_9               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_10              | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_7               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_8               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Minute_counter          | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Second_counter          | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_3               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_4               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter                 | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+Counter_2               | zegarszachowy_post_synthesis |      | 15.0.261.9132 (Windows64) | -O2 -l ARTIX7 -sv2k12
+CARRY4                  | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+GND                     | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+-------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------
+UDP                     | Library                      | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------------
+x_lut1_mux2             | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+x_lut2_mux4             | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+x_lut3_mux8             | unisims_ver                  |      | 15.0.261.9132 (Windows64) | -vendor Xilinx -sv2k12
+-------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+Library                      | Comment
+------------------------------------------------------------------------------------------------------------------------
+unisims_ver                  | Xilinx Vivado 2023.2.2, UNISIM Verilog library
+zegarszachowy_post_synthesis | None
+------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r Top_tb_synth glbl -L C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx\vivado\unisims_ver
+
+
+The performance of simulation is reduced. Version Student Edition
+
+4. Working Library: ZegarSzachowy_timing
+Active-HDL 14.0.258.8726 2025-01-29 14:09:59
+
+Elaboration top modules:
+
+
+----------------------------------------------------------------------------------
+Library                 | Comment
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+

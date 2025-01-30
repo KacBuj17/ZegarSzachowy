@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : List of local and global libraries visible in Library Manager
+-- Active-HDL : 14.0.258.8726
+-- Workspace  : ZegarSzachowy
+-- Design     : ZegarSzachowy
+-- Author     : student
+-- Company    : agh
+-- Date       : 2025-01-29 14:33:43
+--
+-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Library                      | Mode  | Vendor   | Version                                        | Path                                                                                          | Comment
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+aldec                        | RO    | ALDEC    | Aldec Active-HDL                               | C:/Aldec/Active-HDL-14-x64/vlib/aldec                                                         | VHDL PROCEDURES FOR CALLING ASDB, MATLAB, SIGNAL AGENT TASKS FROM THE VHDL CODE, RANDOM PACKAGE
+exemplar                     | RO    | Mentor   | Mentor Graphics Precision RTL Synthesis 2017.1 | C:/Aldec/Active-HDL-14-x64/vlib/exemplar                                                      | EXEMPLAR VHDL library
+uvm_1_2                      | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/uvm-1.2/lib                                                   | UVM 1.2 Library
+osvvm                        | RO    | No Data  | SynthWorks                                     | C:/Aldec/Active-HDL-14-x64/vlib/osvvm                                                         | OSVVM 2022.11 Utility Library
+zegarszachowy_timing         | RW    | No Data  | No Data                                        | C:/Users/student/Desktop/414865/ZegarSzachowy-main/ZegarSzachowy/ZegarSzachowy_timing         | No Data
+zegarszachowy                | RW    | No Data  | No Data                                        | C:/Users/student/Desktop/414865/ZegarSzachowy-main/ZegarSzachowy/ZegarSzachowy                | No Data
+uvm_1800_2_2017              | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/uvm-1800.2-2017/lib                                           | UVM 1800.2-2017 Library
+vital2000                    | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/ieee                                                          | Standard IEEE packages library
+assertions                   | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/assertions                                                    | No Data
+uvvm_util                    | RO    | No Data  | Bitvis AS                                      | C:/Aldec/Active-HDL-14-x64/vlib/uvvm_util                                                     | UVVM 2022.10.07 VHDL Library
+ieee                         | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/ieee                                                          | Standard IEEE packages library
+std                          | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/std                                                           | Standard VHDL library
+ieee_proposed                | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/ieee_proposed                                                 | VHDL '93 compatible version of the proposed packages for the IEEE 1076-2008 standard
+uvm                          | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/uvm-1800.2-2017/lib                                           | UVM 1800.2-2017 Library
+uvm_1800_2_2020              | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/uvm-1800.2-2020/lib                                           | UVM 1800.2-2020 Library
+zegarszachowy_post_synthesis | RW    | No Data  | No Data                                        | C:/Users/student/Desktop/414865/ZegarSzachowy-main/ZegarSzachowy/ZegarSzachowy_post_synthesis | No Data
+vl                           | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/vl                                                            | Standard Verilog library
+synopsys                     | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/synopsys                                                      | Synopsys VHDL library
+uvm_1_1d                     | RO    | No Data  | No Data                                        | C:/Aldec/Active-HDL-14-x64/vlib/uvm-1.1d/lib                                                  | UVM 1.1d Library
+uvvm_vvc_framework           | RO    | No Data  | Bitvis AS                                      | C:/Aldec/Active-HDL-14-x64/vlib/uvvm_vvc_framework                                            | UVVM 2022.10.07 VVC Framework Utility Library
+synplify                     | RO    | Synopsys | Synopsys FPGA Products N-2017.09               | C:/Aldec/Active-HDL-14-x64/vlib/synplify                                                      | SYNPLIFY VHDL library
+xpm                          | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/xpm                                             | XPM SystemVerilog library
+simprims_ver                 | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/simprims_ver                                    | SIMPRIM Verilog library
+unimacro                     | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/unimacro                                        | UNIMACRO VHDL library
+unifast                      | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/unifast                                         | UNIFAST VHDL library
+unisims_ver                  | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/unisims_ver                                     | UNISIM Verilog library
+xilinx_vip                   | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/xilinx_vip                                      | XILINX_VIP library
+unimacro_ver                 | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/unimacro_ver                                    | UNIMACRO Verilog library
+unisim                       | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/unisim                                          | UNISIM VHDL library
+unifast_ver                  | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/unifast_ver                                     | UNIFAST Verilog library
+secureip                     | RO    | Xilinx   | Xilinx Vivado 2022.2.2                         | C:/Aldec/Active-HDL-14-x64/vlib/xilinx/vivado/secureip                                        | SECUREIP library
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

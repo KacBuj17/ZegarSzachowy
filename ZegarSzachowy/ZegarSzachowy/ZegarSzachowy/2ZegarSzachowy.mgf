@@ -1,0 +1,2788 @@
+V 000039 40 8273 1738117071816 decoder
+<?xml version="1.0"?>
+<symbol name="Decoder">
+<shape guid="694da585-6999-49dc-b5f8-2483f884921e" default="1">
+<![CDATA[SYMB0100
+
+HEADER
+{
+ FREEID 26
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #LANGUAGE="VERILOG"
+  #MODIFIED="1738117071"
+  #MODIFIED_USEC="784963"
+  #NAME="Decoder"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="694da585-6999-49dc-b5f8-2483f884921e"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,220,280)
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,280)
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLK"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,8,75,32)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLR"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,48,76,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,88,64,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="digit0(3:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,188,122,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="digit1(3:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,168,122,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="digit2(3:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,228,122,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  PIN  14, 0, 0
+  {
+   COORD (0,220)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="digit3(3:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,208,122,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  PIN  16, 0, 0
+  {
+   COORD (220,20)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg0(6:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (101,8,185,32)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  18, 0, 0
+  {
+   COORD (220,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg1(6:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (101,48,185,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  PIN  20, 0, 0
+  {
+   COORD (220,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg2(6:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (101,88,185,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  PIN  22, 0, 0
+  {
+   COORD (220,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg3(6:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (101,128,185,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 22
+  }
+ }
+ 
+}
+
+
+]]>
+</shape>
+<shape guid="d5035027-a50e-4f3b-91a6-3c15092a94bc">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #LANGUAGE="VERILOG"
+  #MODIFIED="1734606763"
+  #MODIFIED_USEC="499694"
+  #NAME="Decoder"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="d5035027-a50e-4f3b-91a6-3c15092a94bc"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,220,280)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,280)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,8,75,32)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,48,76,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,88,64,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,128,122,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,168,122,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,208,122,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,248,122,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (101,8,185,32)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (101,48,185,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (101,88,185,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (101,128,185,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLK"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLR"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="digit0(3:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="digit1(3:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,220)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="digit2(3:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (0,260)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="digit3(3:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (220,20)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg0(6:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (220,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg1(6:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (220,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg2(6:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (220,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg3(6:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+</symbol>
+
+
+V 000048 40 2508 1736992076087 overflow_handler
+<?xml version="1.0"?>
+<symbol name="Overflow_Handler">
+<shape guid="0330eebe-ea0b-413f-b1bd-8ad08db40379" default="1">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #LANGUAGE="VERILOG"
+  #MODIFIED="1734606710"
+  #MODIFIED_USEC="940988"
+  #NAME="Overflow_Handler"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="0330eebe-ea0b-413f-b1bd-8ad08db40379"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,220,240)
+  FREEID 14
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,240)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,28,75,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,68,76,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,108,64,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,148,160,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,188,160,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (143,28,185,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLK"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLR"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="OVERFLOW1"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="OVERFLOW2"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (220,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="END"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+</symbol>
+
+
+V 000041 40 1836 1736992076107 prescaler
+<?xml version="1.0"?>
+<symbol name="Prescaler">
+<shape guid="4a981f53-a316-4028-bb41-3fb392955615" default="1">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #LANGUAGE="VERILOG"
+  #MODIFIED="1734606655"
+  #MODIFIED_USEC="728482"
+  #NAME="Prescaler"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="4a981f53-a316-4028-bb41-3fb392955615"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,160)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,160,160)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,28,75,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,68,64,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,108,76,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (101,28,145,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLK"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLR"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (180,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="CEO"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+</symbol>
+
+
+V 000048 40 4808 1736992076125 seven_seg_driver
+<?xml version="1.0"?>
+<symbol name="Seven_seg_driver">
+<shape guid="2612da34-efed-47c9-b81b-836dcece5537" default="1">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #LANGUAGE="VERILOG"
+  #MODIFIED="1734520083"
+  #MODIFIED_USEC="621776"
+  #NAME="Seven_seg_driver"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="2612da34-efed-47c9-b81b-836dcece5537"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,240,480)
+  FREEID 28
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,220,480)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,28,65,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,68,54,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,108,66,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,148,109,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,188,109,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,228,109,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,268,109,292)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,308,109,332)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,348,109,372)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,388,109,412)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,428,109,452)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (105,28,215,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 24
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (80,68,215,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 26
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLK"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLR"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="seg1(6:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="seg2(6:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="seg3(6:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (0,280)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="seg4(6:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (0,320)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="seg5(6:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (0,360)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="seg6(6:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,400)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="seg7(6:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (0,440)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="seg8(6:0)"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (240,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg_out(6:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (240,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="seg_select(7:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="reg"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+</symbol>
+
+
+V 000038 40 3137 1736992076141 switch
+<?xml version="1.0"?>
+<symbol name="Switch">
+<shape guid="ec42f067-7363-4d33-83bc-3d08a8710b0f" default="1">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #LANGUAGE="VERILOG"
+  #MODIFIED="1734606690"
+  #MODIFIED_USEC="116145"
+  #NAME="Switch"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="ec42f067-7363-4d33-83bc-3d08a8710b0f"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 18
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,180,280)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,28,75,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,68,76,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,108,64,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,148,113,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,188,90,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,228,77,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (71,28,165,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (71,68,165,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLK"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLR"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="SELECT"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="STOP"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="END"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (200,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="Enable_p1"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (200,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="Enable_p2"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+</symbol>
+
+
+V 000043 40 9700 1736992076189 timer_clock
+<?xml version="1.0"?>
+<symbol name="Timer_Clock">
+<shape guid="9630ee67-f187-4f4f-81ad-13f13b1e0f85" default="1">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #LANGUAGE="VERILOG"
+  #MODIFIED="1734606739"
+  #MODIFIED_USEC="421351"
+  #NAME="Timer_Clock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="9630ee67-f187-4f4f-81ad-13f13b1e0f85"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,360)
+  FREEID 28
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,320,360)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,28,75,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,68,76,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,108,64,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,148,121,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,188,217,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,228,289,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,268,292,292)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,308,291,332)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (186,28,305,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (183,68,305,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (187,108,305,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (184,148,305,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 24
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (207,188,305,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 26
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLK"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLR"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="US_DECREMENT_IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="TS_DECREMENT_IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (0,280)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="UM_DECREMENT_IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (0,320)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="TM_DECREMENT_IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="sec_tens(3:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="sec_units(3:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="min_tens(3:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="min_units(3:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (340,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="OVERFLOW"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+<shape guid="befa5210-b466-4e5b-877c-573f6988753a">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #LANGUAGE="VERILOG"
+  #MODIFIED="1734519268"
+  #MODIFIED_USEC="504285"
+  #NAME="Timer_Clock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="befa5210-b466-4e5b-877c-573f6988753a"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,320,360)
+  FREEID 28
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,300,360)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,28,75,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,68,76,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,108,64,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,148,121,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,188,175,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,228,289,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,268,292,292)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,308,291,332)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (166,28,285,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (163,68,285,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (167,108,285,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (164,148,285,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 24
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (205,188,285,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 26
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLK"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLR"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="US_DECREMENT_IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="TS_DECREMENT_IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (0,280)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="UM_DECREMENT_IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (0,320)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="TM_DECREMENT_IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (320,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="sec_tens(3:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (320,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="sec_units(3:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (320,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="min_tens(3:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (320,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="min_units(3:0)"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (320,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="OVERFLOW"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+</symbol>
+
+
+V 000044 40 7367 1736992076206 timer_setter
+<?xml version="1.0"?>
+<symbol name="Timer_Setter">
+<shape guid="dc555c8b-29af-4426-b550-15d66e89f439" default="1">
+<![CDATA[SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #LANGUAGE="VERILOG"
+  #MODIFIED="1734606724"
+  #MODIFIED_USEC="63923"
+  #NAME="Timer_Setter"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="dc555c8b-29af-4426-b550-15d66e89f439"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,560)
+  FREEID 44
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,320,560)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,28,75,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,68,76,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,108,64,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,148,62,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,188,62,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,228,62,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,268,62,292)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,308,62,332)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,348,62,372)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,388,62,412)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,428,62,452)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,468,121,492)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 24
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (35,508,90,532)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 26
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (252,28,305,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  31, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (252,68,305,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 30
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (252,108,305,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 32
+  }
+  TEXT  35, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (252,148,305,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 34
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (252,188,305,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 36
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (252,228,305,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 38
+  }
+  TEXT  41, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (252,268,305,292)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 40
+  }
+  TEXT  43, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (252,308,305,332)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 42
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLK"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CLR"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="CE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="D1"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="D2"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="D3"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (0,280)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="D4"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (0,320)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="D5"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (0,360)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="D6"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,400)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="D7"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (0,440)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="D8"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (0,480)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="IMPULSE"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (0,520)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #NAME="STOP"
+    #SIDE="left"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="O_D1"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  30, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="O_D2"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="O_D3"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  34, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="O_D4"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (340,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="O_D5"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (340,240)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="O_D6"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  40, 0, 0
+  {
+   COORD (340,280)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="O_D7"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  42, 0, 0
+  {
+   COORD (340,320)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #NAME="O_D8"
+    #SIDE="right"
+    #VERILOG_TYPE="wire"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+
+]]>
+</shape>
+</symbol>
+
+

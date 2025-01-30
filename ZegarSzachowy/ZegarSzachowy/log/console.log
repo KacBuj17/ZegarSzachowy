@@ -1,0 +1,612 @@
+setactivelib -work
+# #Compiling UUT module design files
+comp -include $dsn\src\Top.v
+# Error: C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\Top.v: no such file
+comp -include "$dsn\src\TestBench\Top_TB.v"
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim +access +r Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 38 (100.00%) other processes in SLP
+# SLP: 298 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4698 kB (elbread=427 elab2=4136 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  15:36, czwartek, 30 stycznia 2025
+#  Simulation has been initialized
+
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg SELECT
+wave -noreg STOP
+wave -noreg Set_Impulse;
+
+wave -noreg D1;
+wave -noreg D2;
+wave -noreg D3;
+wave -noreg D4;
+wave -noreg D5;
+wave -noreg D6;
+wave -noreg D7;
+wave -noreg D8;
+wave -noreg seg_out
+wave -noreg seg_select
+run 2000.00 ns
+# VSIM: 16 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+# KERNEL: stopped at time: 2 us
+# 
+# #End simulation macro
+setactivelib -work
+# #Compiling UUT module design files
+comp -include $dsn\src\Top.v
+# Error: C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\Top.v: no such file
+comp -include "$dsn\src\TestBench\Top_TB.v"
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim +access +r Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy $dsn/src/Prescaler.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 38 (100.00%) other processes in SLP
+# SLP: 298 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4698 kB (elbread=427 elab2=4136 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  15:37, czwartek, 30 stycznia 2025
+#  Simulation has been initialized
+
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg SELECT
+wave -noreg STOP
+wave -noreg Set_Impulse;
+
+wave -noreg D1;
+wave -noreg D2;
+wave -noreg D3;
+wave -noreg D4;
+wave -noreg D5;
+wave -noreg D6;
+wave -noreg D7;
+wave -noreg D8;
+wave -noreg seg_out
+wave -noreg seg_select
+run 2000.00 ns
+# VSIM: 16 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+# KERNEL: stopped at time: 2 us
+# 
+# #End simulation macro
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v $dsn/src/TestBench/Top_TB_tim.v
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB Top_tb_tim.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_post_synthesis $dsn/src/TestBench/Top_TB_synth.v $dsn/synthesis/glbl.v $dsn/synthesis/Top.v
+# Warning: VCP2515 ../synthesis/Top.v : (67, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (77, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (103, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (109, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (117, 25): Undefined module: VCC was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (125, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (231, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (240, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (1343, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2300, 104): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2761, 25): Undefined module: GND was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (3283, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4038, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4041, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4232, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Unit top modules: Top_tb_synth glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Warning: VCP2515 ../implement/Top.v : (66, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (76, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (104, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (112, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (128, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (234, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (242, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1370, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (2399, 36): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (3443, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4206, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4209, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4400, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2597 ../implement/Top.v : (3801, 1): Some unconnected ports remain at instance: min. Module Minute_counter has unconnected  port(s) : COUNT_reg_bb1.
+# Warning: VCP2597 ../implement/Top.v : (4380, 1): Some unconnected ports remain at instance: U9. Module Timer_Clock_1 has unconnected  port(s) : COUNT_reg_bb1.
+# Unit top modules: Top glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v $dsn/src/TestBench/Top_TB_tim.v
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB Top_tb_tim.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_post_synthesis $dsn/src/TestBench/Top_TB_synth.v $dsn/synthesis/glbl.v $dsn/synthesis/Top.v
+# Warning: VCP2515 ../synthesis/Top.v : (67, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (77, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (103, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (109, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (117, 25): Undefined module: VCC was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (125, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (231, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (240, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (1343, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2300, 104): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2761, 25): Undefined module: GND was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (3283, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4038, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4041, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4232, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Unit top modules: Top_tb_synth glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Warning: VCP2515 ../implement/Top.v : (66, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (76, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (104, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (112, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (128, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (234, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (242, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1370, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (2399, 36): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (3443, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4206, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4209, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4400, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2597 ../implement/Top.v : (3801, 1): Some unconnected ports remain at instance: min. Module Minute_counter has unconnected  port(s) : COUNT_reg_bb1.
+# Warning: VCP2597 ../implement/Top.v : (4380, 1): Some unconnected ports remain at instance: U9. Module Timer_Clock_1 has unconnected  port(s) : COUNT_reg_bb1.
+# Unit top modules: Top glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+setactivelib -work
+# #Compiling UUT module design files
+comp -include $dsn\src\Top.v
+# Error: C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\Top.v: no such file
+comp -include "$dsn\src\TestBench\Top_TB.v"
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim +access +r Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 38 (100.00%) other processes in SLP
+# SLP: 298 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4698 kB (elbread=427 elab2=4136 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  15:37, czwartek, 30 stycznia 2025
+#  Simulation has been initialized
+
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg SELECT
+wave -noreg STOP
+wave -noreg Set_Impulse;
+
+wave -noreg D1;
+wave -noreg D2;
+wave -noreg D3;
+wave -noreg D4;
+wave -noreg D5;
+wave -noreg D6;
+wave -noreg D7;
+wave -noreg D8;
+wave -noreg seg_out
+wave -noreg seg_select
+run 2000.00 ns
+# VSIM: 16 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+# KERNEL: stopped at time: 2 us
+# 
+# #End simulation macro
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v $dsn/src/TestBench/Top_TB_tim.v
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB Top_tb_tim.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_post_synthesis $dsn/src/TestBench/Top_TB_synth.v $dsn/synthesis/glbl.v $dsn/synthesis/Top.v
+# Warning: VCP2515 ../synthesis/Top.v : (67, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (77, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (103, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (109, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (117, 25): Undefined module: VCC was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (125, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (231, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (240, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (1343, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2300, 104): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2761, 25): Undefined module: GND was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (3283, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4038, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4041, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4232, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Unit top modules: Top_tb_synth glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Warning: VCP2515 ../implement/Top.v : (66, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (76, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (104, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (112, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (128, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (234, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (242, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1370, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (2399, 36): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (3443, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4206, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4209, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4400, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2597 ../implement/Top.v : (3801, 1): Some unconnected ports remain at instance: min. Module Minute_counter has unconnected  port(s) : COUNT_reg_bb1.
+# Warning: VCP2597 ../implement/Top.v : (4380, 1): Some unconnected ports remain at instance: U9. Module Timer_Clock_1 has unconnected  port(s) : COUNT_reg_bb1.
+# Unit top modules: Top glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+run 10000 ns
+# KERNEL: stopped at time: 14 us
+run 10000 ns
+# KERNEL: stopped at time: 24 us
+run 10000 ns
+# KERNEL: stopped at time: 34 us
+run 10000 ns
+# KERNEL: stopped at time: 44 us
+run 10000 ns
+# KERNEL: stopped at time: 54 us
+run 10000 ns
+# KERNEL: stopped at time: 64 us
+run 1ms
+# KERNEL: stopped at time: 1064 us
+run 1s
+endsim
+# KERNEL: stopped at time: 113082400 ns
+# VSIM: Simulation has finished.
+# Warning: WAVEFORM: Object matching /Top_TB/uut/U17/END not found in C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Top_TB/uut/U17/En not found in C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb.
+setactivelib -work
+# #Compiling UUT module design files
+comp -include $dsn\src\Top.v
+# Error: C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\Top.v: no such file
+comp -include "$dsn\src\TestBench\Top_TB.v"
+# Unit top modules: Top_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim +access +r Top_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 38 (100.00%) other processes in SLP
+# SLP: 298 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4698 kB (elbread=427 elab2=4136 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  15:41, czwartek, 30 stycznia 2025
+#  Simulation has been initialized
+
+wave
+wave -noreg CLK
+wave -noreg CLR
+wave -noreg CE
+wave -noreg SELECT
+wave -noreg STOP
+wave -noreg Set_Impulse;
+
+wave -noreg D1;
+wave -noreg D2;
+wave -noreg D3;
+wave -noreg D4;
+wave -noreg D5;
+wave -noreg D6;
+wave -noreg D7;
+wave -noreg D8;
+wave -noreg seg_out
+wave -noreg seg_select
+run 2000.00 ns
+# VSIM: 16 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+# KERNEL: stopped at time: 2 us
+# 
+# #End simulation macro
+# VSIM: 1 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 38 (100.00%) other processes in SLP
+# SLP: 298 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4698 kB (elbread=427 elab2=4136 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Kacper\Desktop\ProjektyStudia_Sem5\ProjektPSC\ZegarSzachowy\ZegarSzachowy\src\wave.asdb
+#  15:41, czwartek, 30 stycznia 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/wave.asdb'.
+run 1s
+endsim
+# KERNEL: stopped at time: 55028810 ns
+# VSIM: Simulation has finished.
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v $dsn/src/TestBench/Top_TB_tim.v
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB Top_tb_tim.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_post_synthesis $dsn/src/TestBench/Top_TB_synth.v $dsn/synthesis/glbl.v $dsn/synthesis/Top.v
+# Warning: VCP2515 ../synthesis/Top.v : (67, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (77, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (103, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (109, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (117, 25): Undefined module: VCC was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (125, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (231, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (240, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (1343, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2300, 104): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2761, 25): Undefined module: GND was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (3283, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4038, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4041, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4232, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Unit top modules: Top_tb_synth glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Warning: VCP2515 ../implement/Top.v : (66, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (76, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (104, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (112, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (128, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (234, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (242, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1370, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (2399, 36): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (3443, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4206, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4209, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4400, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2597 ../implement/Top.v : (3801, 1): Some unconnected ports remain at instance: min. Module Minute_counter has unconnected  port(s) : COUNT_reg_bb1.
+# Warning: VCP2597 ../implement/Top.v : (4380, 1): Some unconnected ports remain at instance: U9. Module Timer_Clock_1 has unconnected  port(s) : COUNT_reg_bb1.
+# Unit top modules: Top glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v $dsn/src/TestBench/Top_TB_tim.v
+# Error: VCP2000 TestBench/Switch_TB.v : (33, 13): Syntax error. Unexpected token: 10[_DELAY].
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_post_synthesis $dsn/src/TestBench/Top_TB_synth.v $dsn/synthesis/glbl.v $dsn/synthesis/Top.v
+# Warning: VCP2515 ../synthesis/Top.v : (67, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (77, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (103, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (109, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (117, 25): Undefined module: VCC was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (125, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (231, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (240, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (1343, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2300, 104): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2761, 25): Undefined module: GND was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (3283, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4038, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4041, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4232, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Unit top modules: Top_tb_synth glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Warning: VCP2515 ../implement/Top.v : (66, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (76, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (104, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (112, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (128, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (234, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (242, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1370, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (2399, 36): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (3443, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4206, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4209, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4400, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2597 ../implement/Top.v : (3801, 1): Some unconnected ports remain at instance: min. Module Minute_counter has unconnected  port(s) : COUNT_reg_bb1.
+# Warning: VCP2597 ../implement/Top.v : (4380, 1): Some unconnected ports remain at instance: U9. Module Timer_Clock_1 has unconnected  port(s) : COUNT_reg_bb1.
+# Unit top modules: Top glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v $dsn/src/TestBench/Top_TB_tim.v
+# DRC: Checking file "C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde".
+# DRC: Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 318 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/compile/Top.v from C:/Users/Kacper/Desktop/ProjektyStudia_Sem5/ProjektPSC/ZegarSzachowy/ZegarSzachowy/src/Top.bde...
+# Generation successful
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB Top_tb_tim.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_post_synthesis $dsn/src/TestBench/Top_TB_synth.v $dsn/synthesis/glbl.v $dsn/synthesis/Top.v
+# Warning: VCP2515 ../synthesis/Top.v : (67, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (77, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (103, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (109, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (117, 25): Undefined module: VCC was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (125, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (231, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (240, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (1343, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2300, 104): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2761, 25): Undefined module: GND was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (3283, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4038, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4041, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4232, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Unit top modules: Top_tb_synth glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Warning: VCP2515 ../implement/Top.v : (66, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (76, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (104, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (112, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (128, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (234, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (242, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1370, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (2399, 36): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (3443, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4206, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4209, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4400, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2597 ../implement/Top.v : (3801, 1): Some unconnected ports remain at instance: min. Module Minute_counter has unconnected  port(s) : COUNT_reg_bb1.
+# Warning: VCP2597 ../implement/Top.v : (4380, 1): Some unconnected ports remain at instance: U9. Module Timer_Clock_1 has unconnected  port(s) : COUNT_reg_bb1.
+# Unit top modules: Top glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy $dsn/src/Switch.v $dsn/src/Counter.v $dsn/src/Prescaler.v $dsn/src/Decoder.v $dsn/src/Overflow_Handler.v $dsn/src/Timer_Setter.v $dsn/src/Seven_seg_driver.v $dsn/src/Second_counter.v $dsn/src/Minute_counter.v $dsn/src/Timer_Clock.v $dsn/src/Top.bde $dsn/src/TestBench/Seven_seg_driver_TB.v $dsn/src/TestBench/Overflow_Handler_TB.v $dsn/src/TestBench/Counter_TB.v $dsn/src/TestBench/Decoder_TB.v $dsn/src/TestBench/Switch_TB.v $dsn/src/TestBench/Timer_Clock_TB.v $dsn/src/TestBench/Top_TB.v $dsn/src/TestBench/Top_TB_tim.v
+# Unit top modules: Seven_seg_driver_tb Overflow_Handler_TB Counter_TB Decoder_TB Switch_TB Timer_Clock_TB Top_TB Top_tb_tim.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_post_synthesis $dsn/src/TestBench/Top_TB_synth.v $dsn/synthesis/glbl.v $dsn/synthesis/Top.v
+# Warning: VCP2515 ../synthesis/Top.v : (67, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (77, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (103, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (109, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (117, 25): Undefined module: VCC was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (125, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (231, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (240, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (1343, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2300, 104): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (2761, 25): Undefined module: GND was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (3283, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4038, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4041, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../synthesis/Top.v : (4232, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Unit top modules: Top_tb_synth glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -l ARTIX7 -sve -msg 5 -sv2k12 -work ZegarSzachowy_timing $dsn/implement/Top.v $dsn/implement/glbl.v
+# Warning: VCP2515 ../implement/Top.v : (66, 33): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (76, 33): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (104, 26): Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (112, 26): Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (128, 34): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (234, 36): Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (242, 31): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (1370, 31): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (2399, 36): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (3443, 28): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4206, 22): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4209, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/Top.v : (4400, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2597 ../implement/Top.v : (3801, 1): Some unconnected ports remain at instance: min. Module Minute_counter has unconnected  port(s) : COUNT_reg_bb1.
+# Warning: VCP2597 ../implement/Top.v : (4380, 1): Some unconnected ports remain at instance: U9. Module Timer_Clock_1 has unconnected  port(s) : COUNT_reg_bb1.
+# Unit top modules: Top glbl.
+# Compile success 0 Errors 15 Warnings  Analysis time: 0[s].
+# done

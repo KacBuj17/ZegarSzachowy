@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : List of design files displayed in Active-HDL Design Browser
+-- Active-HDL : 14.0.258.8726
+-- Workspace  : ZegarSzachowy
+-- Design     : ZegarSzachowy
+-- Author     : student
+-- Company    : agh
+-- Date       : 2025-01-29 14:13:58
+--
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File                           | Comp. | File Status | Design Folder  | File Path
+                               | Order |             |                |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Switch.v                       |     1 | Compiled    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Switch.v
+Counter.v                      |     2 | Compiled    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Counter.v
+Prescaler.v                    |     3 | Compiled    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Prescaler.v
+Decoder.v                      |     4 | Compiled    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Decoder.v
+Overflow_Handler.v             |     5 | Modified    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Overflow_Handler.v
+Timer_Setter.v                 |     6 | Compiled    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Timer_Setter.v
+Seven_seg_driver.v             |     7 | Compiled    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Seven_seg_driver.v
+Second_counter.v               |     8 | Compiled    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Second_counter.v
+Minute_counter.v               |     9 | Compiled    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Minute_counter.v
+Timer_Clock.v                  |    10 | Compiled    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Timer_Clock.v
+Top.bde                        |    11 | Modified    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Top.bde
+ZegarSzachowy.xdc              |       | Modified    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\ZegarSzachowy.xdc
+Top.asdb                       |       | Modified    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Top.asdb
+Top.awc                        |       | Modified    |                | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\Top.awc
+Seven_seg_driver_TB.v          |    12 | Compiled    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Seven_seg_driver_TB.v
+Seven_seg_driver_TB_runtest.do |       | Modified    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Seven_seg_driver_TB_runtest.do
+Overflow_Handler_TB.v          |    13 | Compiled    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Overflow_Handler_TB.v
+Overflow_Handler_TB_runtest.do |       | Modified    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Overflow_Handler_TB_runtest.do
+Counter_TB.v                   |    14 | Compiled    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Counter_TB.v
+Counter_TB_runtest.do          |       | Modified    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Counter_TB_runtest.do
+Decoder_TB.v                   |    15 | Compiled    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Decoder_TB.v
+Decoder_TB_runtest.do          |       | Modified    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Decoder_TB_runtest.do
+Switch_TB.v                    |    16 | Compiled    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Switch_TB.v
+Switch_TB_runtest.do           |       | Modified    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Switch_TB_runtest.do
+Timer_Clock_TB.v               |    17 | Compiled    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Timer_Clock_TB.v
+Timer_Clock_TB_runtest.do      |       | Modified    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Timer_Clock_TB_runtest.do
+Top_TB.v                       |    18 | Compiled    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Top_TB.v
+Top_TB_runtest.do              |       | Modified    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Top_TB_runtest.do
+Top_TB_tim.v                   |    19 | Compiled    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Top_TB_tim.v
+Top_TB_tim_runtest.do          |       | Modified    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Top_TB_tim_runtest.do
+Top_TB_synth.v                 |    20 | Compiled    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Top_TB_synth.v
+Top_TB_synth_runtest.do        |       | Modified    | TestBench      | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\src\TestBench\Top_TB_synth_runtest.do
+Top.edn                        |    21 | Compiled    | post-synthesis | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\synthesis\Top.edn
+glbl.v                         |    22 | Compiled    | post-synthesis | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\synthesis\glbl.v
+Top.v                          |    23 | Warning     | post-synthesis | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\synthesis\Top.v
+Top.v                          |    24 | Warning     | timing         | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\implement\Top.v
+Top.sdf                        |       | Modified    | timing         | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\implement\Top.sdf
+glbl.v                         |    25 | Compiled    | timing         | C:\Users\student\Desktop\414865\ZegarSzachowy-main\ZegarSzachowy\implement\glbl.v
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
